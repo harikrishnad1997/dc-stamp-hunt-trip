@@ -8,7 +8,20 @@ title: DC Stamp Hunt — NPS Passport Itinerary, Nov 19–22, 2026
 **NPS Passport Itinerary · Thu Nov 19 – Sun Nov 22, 2026 · 3 days, DC only**
 Harikrishna Dev + Rajashree Chandar
 
-## Bookings — all confirmed
+## Contents {#contents}
+
+- [Bookings — all confirmed](#bookings)
+- [How stamps work here](#how-stamps-work)
+- [Trip map — color-coded by day](#trip-map)
+- [Day 1 — Fri Nov 20: National Mall, on foot](#day-1)
+- [Day 2 — Sat Nov 21: Downtown, Shaw & Anacostia](#day-2)
+- [Day 3 — Sun Nov 22: by car, then fly home](#day-3)
+- [Know before you go](#know-before-you-go)
+- [Stamp checklist](#stamp-checklist)
+- [Brochure pickup list](#brochure-list)
+- [Packing checklist](#packing-checklist)
+
+## Bookings — all confirmed {#bookings}
 
 ### ✈️ Flights — American Airlines
 Economy (B), $367.60 total. Confirmation numbers are in the PDF itinerary and email, not on this public page.
@@ -37,7 +50,7 @@ Economy (B), $367.60 total. Confirmation numbers are in the PDF itinerary and em
 ### ⏳ Still open
 Optional **Washington Monument** ticket for Fri Nov 20 — Recreation.gov flagged the date "Not Yet Released"; additional tickets release **Thu Nov 19, 3:00 PM ET** (retry then), or free same-day tickets at the Monument Lodge from 8:45 AM Friday. The Monument stamp is at the Lodge desk and needs no ticket.
 
-## How stamps work here
+## How stamps work here {#how-stamps-work}
 
 - Many DC stamps are grouped by bookstore, not by memorial — ask for the full set at each desk. Lincoln bookstore trailer holds Lincoln, Korean War, Vietnam, and Constitution Gardens. Washington Monument Lodge holds National Mall, Washington Monument, and World War I Memorial. FDR bookstore holds FDR + World War II. Ford's Theatre bookstore holds Ford's + Pennsylvania Avenue NHS.
 - If you don't see a stamp, ask a ranger. Carry loose paper as backup — some kiosks run out of ink or move the stamp.
@@ -45,7 +58,13 @@ Optional **Washington Monument** ticket for Fri Nov 20 — Recreation.gov flagge
 - **[B] = official NPS brochure pickup:** stops marked [B] have the free official park brochure (unigrid) at the desk named there — grab it where you get the stamp. Full pickup list is in the checklists below.
 - 📍 Each stop below links to its Google Maps location.
 
-## Day 1 — Fri Nov 20: National Mall, on foot
+## Trip map — color-coded by day {#trip-map}
+
+Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sat, Downtown / Shaw / Anacostia) · 🟢 **Day 3** (Sun, by car) · 🟣 hotel · ⚫ DCA / Enterprise. Pins are numbered in visit order — tap a pin for the stop and a Google Maps link. [Open the map full-screen](map.html) for easier browsing on a phone.
+
+<iframe src="map.html" width="100%" height="480" style="border:1px solid #ccc; border-radius:8px;" loading="lazy" title="DC Stamp Hunt map — stops color-coded by day"></iframe>
+
+## Day 1 — Fri Nov 20: National Mall, on foot {#day-1}
 
 - **8:30 AM — [Lincoln Memorial](https://www.google.com/maps/search/?api=1&query=Lincoln+Memorial+Washington+DC).** Start early before crowds. Stamp at the bookstore trailer. [B] Brochures for Lincoln + Korean War + Vietnam are at this desk / the Mall information kiosks — collect all three here. Lincoln, Korean War, Vietnam, and Constitution Gardens stamps are all at this one desk. Quick look at Vietnam Women's Memorial + Three Soldiers nearby.
 - **9:45 AM — [Korean War Veterans Memorial](https://www.google.com/maps/search/?api=1&query=Korean+War+Veterans+Memorial+Washington+DC).** Short walk. Stamp already collected at the Lincoln desk.
@@ -59,7 +78,7 @@ Optional **Washington Monument** ticket for Fri Nov 20 — Recreation.gov flagge
 
 > **Day 1 walking note:** About 4–5 miles on foot, mostly flat. No car needed — Metro to Foggy Bottom / Smithsonian to start.
 
-## Day 2 — Sat Nov 21: Downtown, Shaw & Anacostia, on foot + Metro/bus
+## Day 2 — Sat Nov 21: Downtown, Shaw & Anacostia, on foot + Metro/bus {#day-2}
 
 - **9:00 AM — [White House Visitor Center (President's Park)](https://www.google.com/maps/search/?api=1&query=White+House+Visitor+Center+Washington+DC).** [B] Brochure at the visitor center, same place as the stamp. Lafayette Square + White House viewing from outside. Nearest Metro: McPherson Square / Metro Center.
 - **10:00 AM — [Ford's Theatre NHS + Pennsylvania Avenue NHS](https://www.google.com/maps/search/?api=1&query=Fords+Theatre+Washington+DC).** [B] Brochure in the lobby / bookstore. Stamps for both at the Ford's bookstore. **Timed entry booked, 10:00 AM** — covers the theatre + Petersen House across the street.
@@ -72,7 +91,7 @@ Optional **Washington Monument** ticket for Fri Nov 20 — Recreation.gov flagge
 
 > **Day 2 transit note:** On foot + Metro/bus during the day (~4 miles walking), car only from the evening pickup on. SmarTrip / contactless needed for Metro + Metrobus. The Star-Spangled Banner Trail stamp at the Navy Museum (Navy Yard) is not scheduled — only if a real gap opens.
 
-## Day 3 — Sun Nov 22: by car, then fly home
+## Day 3 — Sun Nov 22: by car, then fly home {#day-3}
 
 - **9:00 AM — [Theodore Roosevelt Island](https://www.google.com/maps/search/?api=1&query=Theodore+Roosevelt+Island+Parking+Arlington+VA).** [B] Trail-map brochure in the trailhead box (stock varies — download the PDF from nps.gov first). Parking off northbound GW Parkway, footbridge to the island. Easy wooded loop, ~45 min. Straight ~15-min drive from the hotel — the car was picked up Sat night.
 - **10:15 AM — [C&O Canal, Georgetown Visitor Center](https://www.google.com/maps/search/?api=1&query=Chesapeake+and+Ohio+Canal+Georgetown+Visitor+Center+1057+Thomas+Jefferson+St+NW+Washington+DC).** [B] Brochure at the desk, same desk as the stamp. Open Sunday 9 AM–4 PM. Cross Key Bridge from the island (~10 min). Short towpath walk if time allows.
@@ -85,7 +104,7 @@ Optional **Washington Monument** ticket for Fri Nov 20 — Recreation.gov flagge
 
 > **Day 3 note:** Route runs north-to-south and ends closest to DCA. If you fall behind, cut Anacostia Park HQ first, then shorten the C&O towpath walk — never Belmont-Paul (Fri–Sun only). Check out before the 9 AM start; bags ride in the car.
 
-## Know before you go
+## Know before you go {#know-before-you-go}
 
 - Check nps.gov for each site the week you go — small sites (Bethune, Woodson, Belmont-Paul, Georgetown C&O) vary by season and staffing. Day 3 stops need Sunday hours confirmed, especially Rock Creek Nature Center.
 - Screenshot every ticket before you go — cell service can be spotty.
@@ -94,7 +113,7 @@ Optional **Washington Monument** ticket for Fri Nov 20 — Recreation.gov flagge
 - Late November on the Mall and Tidal Basin is cold and windy with little shelter — check the forecast the night before each day.
 - **Parked for a later add-on (not in this 3-day DC-only trip):** Maryland — Clara Barton NHS, Great Falls Tavern, Fort Washington, Smallwood, Thomas Stone, Glen Echo, Fort Foote, Oxon Cove; Virginia — Arlington House, GW Parkway HQ (Turkey Run), Great Falls VA, Mason Neck / Leesylvania.
 
-## Stamp checklist
+## Stamp checklist {#stamp-checklist}
 
 ### Day 1 — Fri Nov 20, National Mall
 - [ ] Lincoln Memorial
@@ -128,7 +147,7 @@ Optional **Washington Monument** ticket for Fri Nov 20 — Recreation.gov flagge
 - [ ] Belmont-Paul Women's Equality National Monument
 - [ ] National Capital Parks-East / Anacostia Park (at Anacostia Park HQ, optional stop)
 
-## Official NPS brochure pickup list — [B] stops
+## Official NPS brochure pickup list — [B] stops {#brochure-list}
 
 ### Day 1 — National Mall
 - [ ] Lincoln Memorial brochure — Lincoln bookstore trailer / Mall info kiosk (also Korean War + Vietnam brochures)
@@ -153,7 +172,7 @@ Optional **Washington Monument** ticket for Fri Nov 20 — Recreation.gov flagge
 - [ ] Belmont-Paul brochure — at the house
 - [ ] National Capital Parks-East brochures — Anacostia Park HQ (backup pickup point)
 
-## Packing checklist
+## Packing checklist {#packing-checklist}
 
 - [ ] National Parks Passport book + loose paper / index cards for backup stamps
 - [ ] Folder / large envelope for the [B] brochures
