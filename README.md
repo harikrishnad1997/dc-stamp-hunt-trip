@@ -17,7 +17,9 @@ A 3-day National Park Service passport-stamp trip to Washington, DC, built aroun
   American Civil War Memorial, Frederick Douglass NHS (3:30 PM tour), then the rental-car
   pickup at DCA in the evening
 - **Day 3 (Sun Nov 22)** — by car: Theodore Roosevelt Island, C&O Canal Georgetown,
-  LBJ Memorial Grove, Rock Creek Park, Kenilworth Aquatic Gardens, Belmont-Paul,
+  LBJ Memorial Grove, the Pentagon 9/11 Memorial (on foot), Arlington Cemetery
+  (Arlington House — its bookstore has the LBJ Grove stamp), Georgetown (C&O Canal +
+  the Old Stone House for the Rock Creek stamp), Kenilworth Aquatic Gardens, Belmont-Paul,
   Fort Washington Park (MD), then the flight home
 
 Everything is booked (flights, hotel, all three Saturday tours, rental car). The only
