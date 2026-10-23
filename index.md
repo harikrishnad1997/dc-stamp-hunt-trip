@@ -20,6 +20,8 @@ Harikrishna Dev + Rajashree Chandar
 - [Stamp checklist](#stamp-checklist)
 - [Brochure pickup list](#brochure-list)
 - [Packing checklist](#packing-checklist)
+- [Where the stamps live — sites without a visitor center](#stamp-locations)
+- [America 250 commemorative stamps](#america-250)
 
 ## Bookings — all confirmed {#bookings}
 
@@ -69,10 +71,10 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 - **8:30 AM — [Lincoln Memorial](https://www.google.com/maps/search/?api=1&query=Lincoln+Memorial+Washington+DC).** Start early before crowds. Stamp at the bookstore trailer. [B] Brochures for Lincoln + Korean War + Vietnam are at this desk / the Mall information kiosks — collect all three here. Lincoln, Korean War, Vietnam, and Constitution Gardens stamps are all at this one desk. Quick look at Vietnam Women's Memorial + Three Soldiers nearby.
 - **9:45 AM — [Korean War Veterans Memorial](https://www.google.com/maps/search/?api=1&query=Korean+War+Veterans+Memorial+Washington+DC).** Short walk. Stamp already collected at the Lincoln desk.
 - **10:15 AM — [Vietnam Veterans Memorial](https://www.google.com/maps/search/?api=1&query=Vietnam+Veterans+Memorial+Washington+DC).** The Wall + Three Soldiers. Stamp already collected at the Lincoln desk.
-- **11:15 AM — [DC War Memorial / World War I Memorial](https://www.google.com/maps/search/?api=1&query=DC+War+Memorial+Washington+DC).** Its stamp lives at the Washington Monument Lodge — pick it up at noon.
+- **11:15 AM — [DC War Memorial](https://www.google.com/maps/search/?api=1&query=DC+War+Memorial+Washington+DC).** No desk here — per NPS's Mall stamp page, its stamp is at the **MLK Jr. Memorial Bookstore** (2:30 PM stop). Don't confuse it with the World War I Memorial (Pershing Park) stamp, which is at the Lodge / FDR bookstore.
 - **12:00 PM — [Washington Monument Lodge (15th St)](https://www.google.com/maps/search/?api=1&query=Washington+Monument+Lodge+Washington+DC).** [B] Main Day 1 brochure rack. Stamp desk for National Mall, Washington Monument, and World War I Memorial. Good lunch break.
-- **1:30 PM — [Dwight D. Eisenhower Memorial](https://www.google.com/maps/search/?api=1&query=Dwight+D+Eisenhower+Memorial+Washington+DC).** Own bookstore + own stamp. [B] Brochure at the bookstore.
-- **2:30 PM — [Martin Luther King Jr. Memorial](https://www.google.com/maps/search/?api=1&query=Martin+Luther+King+Jr+Memorial+Washington+DC).** Bookstore stamp. [B] Brochure at the bookstore. Walk the Tidal Basin path.
+- **1:30 PM — [Dwight D. Eisenhower Memorial](https://www.google.com/maps/search/?api=1&query=Dwight+D+Eisenhower+Memorial+Washington+DC).** Own bookstore + own stamp. [B] Brochure at the bookstore. Per NPS, this bookstore also holds the **Belmont-Paul** stamp (Day 3 site) and the National Mall and Memorial Parks stamp — handy backups.
+- **2:30 PM — [Martin Luther King Jr. Memorial](https://www.google.com/maps/search/?api=1&query=Martin+Luther+King+Jr+Memorial+Washington+DC).** Bookstore stamp. [B] Brochure at the bookstore. Per NPS, this bookstore also holds the **DC War Memorial stamp** (pick it up here) and the African American Civil War Memorial stamp (backup for Day 2). Walk the Tidal Basin path.
 - **3:45 PM — [Franklin D. Roosevelt Memorial](https://www.google.com/maps/search/?api=1&query=Franklin+Delano+Roosevelt+Memorial+Washington+DC).** Bookstore stamp for FDR + World War II Memorial. [B] FDR brochure here — also ask for the World War II Memorial brochure. The four outdoor rooms are the longest stop of Day 1.
 - **5:15 PM — [Jefferson Memorial](https://www.google.com/maps/search/?api=1&query=Thomas+Jefferson+Memorial+Washington+DC).** Bookstore stamp. [B] Brochure at the bookstore. Best at sunset. Metro home from Smithsonian / L'Enfant Plaza.
 
@@ -124,7 +126,8 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 - [ ] World War II Memorial (at FDR bookstore)
 - [ ] National Mall (at Washington Monument Lodge)
 - [ ] Washington Monument (at Lodge)
-- [ ] World War I / DC War Memorial (at Lodge)
+- [ ] DC War Memorial (stamp at the MLK Jr. Memorial Bookstore)
+- [ ] World War I Memorial — Pershing Park (at the Lodge or the FDR bookstore)
 - [ ] Dwight D. Eisenhower Memorial
 - [ ] Martin Luther King Jr. Memorial
 - [ ] Franklin D. Roosevelt Memorial
@@ -194,6 +197,44 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 - [ ] Small daypack (bag checks; no car to stash bags on Day 2)
 - [ ] Vegetarian snacks / lunch plan — check veg menus the night before
 
+## Where the stamps live — sites without a visitor center {#stamp-locations}
+
+Most Mall memorials and several east-side sites have no visitor center or desk of their own — their passport stamps live at the bookstore/kiosk desks below. Sources: NPS [National Mall stamp-locations page](https://www.nps.gov/nama/learn/https-www-nps-gov-nama-learn-where-can-you-get-passport-stamps-htm.htm) and NPS National Capital Parks-East stamp page (checked Oct 2026). Ask for the full set at each desk — several hold stamps for places you won't visit separately.
+
+**National Mall desks (Day 1 route)**
+- **Lincoln Memorial Bookstore/trailer** (2 Lincoln Circle NW): Constitution Gardens, Korean War, Lincoln, Signers of the Declaration of Independence Memorial, Vietnam, Vietnam Women's Memorial, John Ericsson Memorial. The Korean War and Vietnam info kiosks nearby also carry Lincoln/Korean War/Vietnam.
+- **Washington Monument Lodge** (2 15th St NW): National Mall, Washington Monument, World War I Memorial (Pershing Park), Lockkeeper's House, Old Post Office Tower.
+- **Eisenhower Memorial Bookstore**: Eisenhower, National Mall and Memorial Parks, **Belmont-Paul** (backup for Day 3), Ulysses S. Grant Memorial, Japanese American Memorial, American Veterans Disabled for Life Memorial, George G. Meade Statue.
+- **MLK Jr. Memorial Bookstore**: MLK, **DC War Memorial**, African American Civil War Memorial (backup for Day 2), National Mall and Memorial Parks, Jefferson, John Paul Jones, John Ericsson.
+- **FDR Memorial Bookstore**: FDR, World War II Memorial, World War I Memorial, Pennsylvania Avenue NHS, National Mall and Memorial Parks, Jefferson, George Mason Memorial, Titanic Memorial, West Potomac Park Memorial.
+- **Jefferson Memorial Bookstore**: Jefferson, National Mall and Memorial Parks, George Mason Memorial, Titanic Memorial.
+- **World War II Memorial info desk**: World War II Memorial, National Mall, Constitution Gardens, John Paul Jones, 56 Signers Memorial.
+
+**Downtown desk (Day 2)**
+- **Ford's Theatre Box Office**: Ford's Theatre NHS, Petersen House, US Navy Memorial. **Ford's Theatre Bookstore**: Ford's, Petersen House, Pennsylvania Avenue NHS.
+
+**National Capital Parks-East desks (Days 2–3)**
+- **Frederick Douglass NHS visitor center** (Day 2, 3 PM): Douglass, **Bethune Council House** (house closed for renovation), Woodson Home, Capitol Hill Parks, National Capital Parks-East, Underground Railroad Network to Freedom, plus special-edition Douglass/Woodson/Bethune stamps.
+- **Kenilworth Aquatic Gardens visitor center** (Day 3, 1 PM): Kenilworth, **Anacostia Park (the ONLY place that stamp is available)**, Capitol Hill Parks, Civil War Defenses of Washington, Baltimore-Washington Parkway, Fort Dupont Park, National Capital Parks-East, Potomac Heritage Trail.
+
+## America 250 commemorative stamps {#america-250}
+
+For the semiquincentennial, NPS has special **America250™ commemorative passport stamps** at 8 Mall-area desks (source: NPS [America250 stamp locations](https://www.nps.gov/places/nama-250-stamp-locations.htm), checked Oct 2026). Every desk is already on your route — when you stamp at each one, ask for the America250 version for its sites.
+
+**Day 1 — Fri Nov 20 (six desks, all on the Mall route)**
+- [ ] Washington Monument Lodge — America250: National Mall, Washington Monument, World War I Memorial
+- [ ] Lincoln Memorial Bookstore Trailer — America250: Constitution Gardens, Korean War, Lincoln, Vietnam
+- [ ] Eisenhower Memorial Bookstore — America250: Eisenhower Memorial
+- [ ] MLK Jr. Memorial Bookstore — America250: MLK Jr. Memorial
+- [ ] FDR Memorial Bookstore — America250: FDR Memorial, World War II Memorial
+- [ ] Jefferson Memorial Bookstore — America250: Thomas Jefferson Memorial
+
+**Day 2 — Sat Nov 21**
+- [ ] Ford's Theatre Bookstore — America250: Ford's Theatre NHS, Pennsylvania Avenue NHS
+
+**Day 3 — Sun Nov 22**
+- [ ] Belmont-Paul Women's Equality House — America250: Belmont-Paul Women's Equality NM
+
 ---
 
-*Itinerary v9 · Flights, hotel, tours, and rental car all booked (confirmation numbers kept in the PDF itinerary, not on this page) · Only the optional Washington Monument ticket is outstanding (retry Thu Nov 19, 3:00 PM ET) · Stamp locations verified against the NPS America250 list, Oct 2026 · Rock Creek Nature Center Sunday status to recheck the week of the trip.*
+*Itinerary v11 · Flights, hotel, tours, and rental car all booked (confirmation numbers kept in the PDF itinerary, not on this page) · Only the optional Washington Monument ticket is outstanding (retry Thu Nov 19, 3:00 PM ET) · Bethune Council House closed for renovation until Jan 27, 2027 — its stamp is at the Douglass visitor center · Stamp locations verified against the NPS National Mall, NACE, and America250 pages, Oct 2026 · Rock Creek Nature Center Sunday status to recheck the week of the trip.*
