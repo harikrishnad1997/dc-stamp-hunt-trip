@@ -82,11 +82,11 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 
 - **9:00 AM — [White House Visitor Center (President's Park)](https://www.google.com/maps/search/?api=1&query=White+House+Visitor+Center+Washington+DC).** [B] Brochure at the visitor center, same place as the stamp. Lafayette Square + White House viewing from outside. Nearest Metro: McPherson Square / Metro Center.
 - **10:00 AM — [Ford's Theatre NHS + Pennsylvania Avenue NHS](https://www.google.com/maps/search/?api=1&query=Fords+Theatre+Washington+DC).** [B] Brochure in the lobby / bookstore. Stamps for both at the Ford's bookstore. **Timed entry booked, 10:00 AM** — covers the theatre + Petersen House across the street.
-- **11:15 AM — [Clara Barton Missing Soldiers Office Museum](https://www.google.com/maps/search/?api=1&query=Clara+Barton+Missing+Soldiers+Office+Museum+Washington+DC)** *(optional)* — 437 7th St NW. Not an NPS stamp site. Only if Ford's runs early — Bethune's 12:00 PM tour is the priority.
-- **12:00 PM — [Mary McLeod Bethune Council House NHS](https://www.google.com/maps/search/?api=1&query=Mary+McLeod+Bethune+Council+House+Washington+DC).** [B] Brochure at the house; also ask here for the Woodson brochure. Metro: Gallery Place → Shaw-Howard U (Green line). Tours every ~30 min, drop-in — aim for 12:00 PM and leave right after.
+- **11:15 AM — [Clara Barton Missing Soldiers Office Museum](https://www.google.com/maps/search/?api=1&query=Clara+Barton+Missing+Soldiers+Office+Museum+Washington+DC)** *(optional)* — 437 7th St NW. Not an NPS stamp site. Only if Ford's runs early — the timed anchor today is the Woodson 1:15 PM tour (Bethune is closed, so there's slack now).
+- **12:00 PM — [Mary McLeod Bethune Council House NHS](https://www.google.com/maps/search/?api=1&query=Mary+McLeod+Bethune+Council+House+Washington+DC) — ⛔ CLOSED FOR RENOVATION.** NPS closed the house Sep 9, 2026 for rehabilitation; it reopens Jan 27, 2027 — **no entry, no tour** on this trip. Exterior/photo stop only at Logan Circle (1318 Vermont Ave NW) as you pass toward Shaw. **Its passport stamp is available at the Frederick Douglass NHS visitor center** (per NPS's NACE stamp page) — you're there at 3:00 PM today; ask for the Bethune stamp and brochure there. Use the freed time for a relaxed lunch near Logan Circle / Shaw before Woodson.
 - **1:15 PM — [Carter G. Woodson Home NHS](https://www.google.com/maps/search/?api=1&query=Carter+G+Woodson+Home+National+Historic+Site+Washington+DC).** [B] Brochure at the house. **1:15 PM tour booked (Recreation.gov)**; arrive ~12:50 PM to pick up tickets at the visitor center first. Site reopened Nov 7, 2026.
 - **2:10 PM — [African American Civil War Memorial](https://www.google.com/maps/search/?api=1&query=African+American+Civil+War+Memorial+Washington+DC).** ~10-min walk from Woodson. No NPS passport stamp — visit for the memorial. Then straight to the Metro; the Douglass leg is time-protected.
-- **3:30 PM — [Frederick Douglass NHS (Cedar Hill), Anacostia](https://www.google.com/maps/search/?api=1&query=Frederick+Douglass+National+Historic+Site+Washington+DC).** [B] Brochure at the visitor center. **3:30 PM house tour booked (Recreation.gov)**. Douglass has **no Sunday/Monday tours** — that's why it's Saturday. Transit: Green line U Street → Anacostia station, then B2 (toward Mt. Rainier) or V2 bus to W & 14th St, at the site — or a 3/4-mile walk. Arrive by 3:00 PM for tickets, stamp, exhibits/film. Site closes 4:30 PM in winter. Rideshare from U Street is the backup — do not miss this tour.
+- **3:30 PM — [Frederick Douglass NHS (Cedar Hill), Anacostia](https://www.google.com/maps/search/?api=1&query=Frederick+Douglass+National+Historic+Site+Washington+DC).** [B] Brochure at the visitor center. **3:30 PM house tour booked (Recreation.gov)**. Douglass has **no Sunday/Monday tours** — that's why it's Saturday. Transit: Green line U Street → Anacostia station, then B2 (toward Mt. Rainier) or V2 bus to W & 14th St, at the site — or a 3/4-mile walk. Arrive by 3:00 PM for tickets, stamp, exhibits/film. Site closes 4:30 PM in winter. Rideshare from U Street is the backup — do not miss this tour. **Stamp safety net:** per NPS, this visitor center also carries the **Bethune Council House stamp** (Bethune is closed), the Woodson stamp, Capitol Hill Parks, and National Capital Parks-East stamps — ask for the full partner set here.
 - **8:30 PM — Enterprise pickup at DCA (booked).** After dinner: Metro Blue line from McPherson Square to DCA station (~25 min), then the rental car shuttle or ~10-min walk to the Terminal Garage A counter. Compact (Nissan Versa or similar). Drive back to the hotel (~15 min) and park overnight — hotel parking is paid, confirm the overnight rate at Thursday check-in.
 
 > **Day 2 transit note:** On foot + Metro/bus during the day (~4 miles walking), car only from the evening pickup on. SmarTrip / contactless needed for Metro + Metrobus. The Star-Spangled Banner Trail stamp at the Navy Museum (Navy Yard) is not scheduled — only if a real gap opens.
@@ -96,15 +96,17 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 - **9:00 AM — [Theodore Roosevelt Island](https://www.google.com/maps/search/?api=1&query=Theodore+Roosevelt+Island+Parking+Arlington+VA).** [B] Trail-map brochure in the trailhead box (stock varies — download the PDF from nps.gov first). Parking off northbound GW Parkway, footbridge to the island. Easy wooded loop, ~45 min. Straight ~15-min drive from the hotel — the car was picked up Sat night.
 - **10:15 AM — [C&O Canal, Georgetown Visitor Center](https://www.google.com/maps/search/?api=1&query=Chesapeake+and+Ohio+Canal+Georgetown+Visitor+Center+1057+Thomas+Jefferson+St+NW+Washington+DC).** [B] Brochure at the desk, same desk as the stamp. Open Sunday 9 AM–4 PM. Cross Key Bridge from the island (~10 min). Short towpath walk if time allows.
 - **11:30 AM — [Rock Creek Park Nature Center](https://www.google.com/maps/search/?api=1&query=Rock+Creek+Park+Nature+Center+5200+Glover+Rd+NW+Washington+DC).** [B] Park brochure + map here (or Peirce Mill / Old Stone House; box outside if closed). Confirm Sunday status the week of the trip — NPS has shown it temporarily closed at times.
-- **1:00 PM — [Kenilworth Park & Aquatic Gardens](https://www.google.com/maps/search/?api=1&query=Kenilworth+Park+and+Aquatic+Gardens+Washington+DC).** [B] Brochure at the visitor center — also the pickup point for the Anacostia Park brochure. Own stamp. Keep to ~45 min.
+- **1:00 PM — [Kenilworth Park & Aquatic Gardens](https://www.google.com/maps/search/?api=1&query=Kenilworth+Park+and+Aquatic+Gardens+Washington+DC).** [B] Brochure at the visitor center — also the pickup point for the Anacostia Park brochure. Own stamp. Keep to ~45 min. **Stamp gold mine:** per NPS, the Anacostia Park stamp is *only* available here, and this VC also carries Capitol Hill Parks, Civil War Defenses of Washington, Baltimore-Washington Parkway, Potomac Heritage Trail, and National Capital Parks-East stamps — ask for the partner set.
 - **2:15 PM — [Belmont-Paul Women's Equality National Monument](https://www.google.com/maps/search/?api=1&query=Belmont-Paul+Womens+Equality+National+Monument+144+Constitution+Ave+NE+Washington+DC).** [B] Brochure at the house. Open Fri–Sun 10 AM–5 PM. You'll likely just miss the 2 PM ranger tour; exhibits are self-guided, stamp at the desk. Sunday is its last chance of the trip.
-- **3:30 PM — [Anacostia Park HQ](https://www.google.com/maps/search/?api=1&query=Anacostia+Park+1900+Anacostia+Dr+SE+Washington+DC)** *(optional)* — [B] National Capital Parks-East HQ — ask for any missed NACE brochures/stamps. 10 min, only if on schedule.
+- **3:30 PM — [Anacostia Park HQ](https://www.google.com/maps/search/?api=1&query=Anacostia+Park+1900+Anacostia+Dr+SE+Washington+DC)** *(optional)* — National Capital Parks-East HQ. Note: the Anacostia Park stamp itself is only at the Kenilworth VC (1 PM stop) — this is just for anything else NACE, and the lowest priority of the day. 10 min, only if on schedule.
 - **4:30 PM — Wrap + return car at DCA.** Leave by ~4:30–5:00 PM. Enterprise return is booked for 6:00 PM — car back at Terminal Garage A by ~5:45 PM, then shuttle/walk to the terminal.
 - **7:59 PM — Fly home, AA 423**, DCA 7:59 PM ET → ORD 9:34 PM CT.
 
 > **Day 3 note:** Route runs north-to-south and ends closest to DCA. If you fall behind, cut Anacostia Park HQ first, then shorten the C&O towpath walk — never Belmont-Paul (Fri–Sun only). Check out before the 9 AM start; bags ride in the car.
 
 ## Know before you go {#know-before-you-go}
+
+- **Bethune Council House is closed for renovation** (NPS, Sep 9, 2026 – Jan 27, 2027) — Day 2's stop there is exterior-only. Its passport stamp is at the Frederick Douglass NHS visitor center (Day 2, 3 PM).
 
 - Check nps.gov for each site the week you go — small sites (Bethune, Woodson, Belmont-Paul, Georgetown C&O) vary by season and staffing. Day 3 stops need Sunday hours confirmed, especially Rock Creek Nature Center.
 - Screenshot every ticket before you go — cell service can be spotty.
@@ -134,7 +136,8 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 - [ ] President's Park / White House (White House Visitor Center)
 - [ ] Pennsylvania Avenue NHS (at Ford's Theatre bookstore)
 - [ ] Ford's Theatre NHS
-- [ ] Mary McLeod Bethune Council House NHS
+- [ ] Mary McLeod Bethune Council House NHS — site CLOSED for renovation; stamp is at the Frederick Douglass NHS visitor center (Day 2, 3 PM)
+- [ ] Capitol Hill Parks (bonus — at the Douglass VC or the Kenilworth VC)
 - [ ] Carter G. Woodson Home NHS — 1:15 PM tour
 - [ ] Frederick Douglass NHS — 3:30 PM tour (no Sun/Mon tours)
 - [ ] Star-Spangled Banner Trail — Navy Yard (not scheduled, flex only)
@@ -145,7 +148,7 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 - [ ] Rock Creek Park
 - [ ] Kenilworth Park & Aquatic Gardens
 - [ ] Belmont-Paul Women's Equality National Monument
-- [ ] National Capital Parks-East / Anacostia Park (at Anacostia Park HQ, optional stop)
+- [ ] National Capital Parks-East / Anacostia Park (Anacostia Park stamp is ONLY at the Kenilworth VC per NPS; HQ stop optional)
 
 ## Official NPS brochure pickup list — [B] stops {#brochure-list}
 
@@ -160,8 +163,8 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 ### Day 2 — Downtown / Shaw / Anacostia
 - [ ] President's Park / White House brochure — White House Visitor Center
 - [ ] Ford's Theatre brochure — Ford's Theatre lobby / bookstore
-- [ ] Mary McLeod Bethune Council House brochure — at the house (also ask for the Woodson brochure)
-- [ ] Carter G. Woodson Home brochure — at the house (backup: Bethune desk)
+- [ ] Mary McLeod Bethune Council House brochure — house CLOSED; ask at the Frederick Douglass NHS visitor center or the Woodson VC
+- [ ] Carter G. Woodson Home brochure — at the house (backup: Frederick Douglass NHS visitor center)
 - [ ] Frederick Douglass NHS brochure — Douglass visitor center
 
 ### Day 3 — by car
