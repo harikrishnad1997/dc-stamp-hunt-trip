@@ -12,6 +12,7 @@
   #bar p { margin: 0; font-size: 13px; opacity: .9; }
   #map { height: calc(100% - 62px); }
   .pin { border-radius: 50%; color: #fff; font-weight: 700; font-size: 12px; text-align: center; line-height: 24px; width: 24px; height: 24px; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.45); }
+  .pin.park { border-radius: 6px; background: #0f766e; }
   .legend { background: #fff; padding: 8px 10px; border-radius: 6px; box-shadow: 0 1px 5px rgba(0,0,0,.3); font-size: 13px; line-height: 1.7; }
   .legend .chip { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
   .leaflet-popup-content { font-size: 14px; }
@@ -59,7 +60,15 @@ var STOPS = [
 ];
 var map = L.map("map");
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
-var GROUPS = { day1: L.layerGroup(), day2: L.layerGroup(), day3: L.layerGroup(), hotel: L.layerGroup(), airport: L.layerGroup() };
+var PARKING = [
+  { n: "P · Roosevelt Island parking lot", lat: 38.89680, lng: -77.06620, t: "FREE — NPS lot at the footbridge. Northbound GW Parkway lanes only. Small — fills on weekend mornings.", q: "Theodore+Roosevelt+Island+Parking+Arlington+VA" },
+  { n: "P · Georgetown street parking (for C&O Canal VC)", lat: 38.90490, lng: -77.06060, t: "FREE on Sundays — DC meters are not enforced on Sundays. Metered spots near Thomas Jefferson St / Wisconsin Ave; Georgetown residential side streets as backup (permit-zone limits are weekday-only). Read the sign on the block.", q: "Thomas+Jefferson+Street+NW+Washington+DC" },
+  { n: "P · Rock Creek Nature Center parking lot", lat: 38.95990, lng: -77.05250, t: "FREE — NPS lot at the Nature Center, 5200 Glover Rd NW. (The park's only metered parking is at Thompson Boat Center, far from here.)", q: "Rock+Creek+Park+Nature+Center+Washington+DC" },
+  { n: "P · Kenilworth Aquatic Gardens parking lot", lat: 38.91220, lng: -76.94240, t: "FREE — park lot at 1550 Anacostia Ave NE. Kenilworth Park lots nearby are free too.", q: "Kenilworth+Park+and+Aquatic+Gardens+Washington+DC" },
+  { n: "P · Belmont-Paul street parking", lat: 38.89260, lng: -77.00460, t: "FREE on Sundays — metered street parking on Constitution Ave NE / 2nd St NE (DC meters not enforced on Sundays); residential side streets as backup. No lot at the house; skip the paid Union Station garage.", q: "Constitution+Avenue+NE+Washington+DC" },
+  { n: "P · Anacostia Park parking lots", lat: 38.87850, lng: -76.97060, t: "FREE — park lots along Anacostia Drive SE, near the NACE headquarters.", q: "Anacostia+Park+Washington+DC" }
+];
+var GROUPS = { day1: L.layerGroup(), day2: L.layerGroup(), day3: L.layerGroup(), hotel: L.layerGroup(), airport: L.layerGroup(), parking: L.layerGroup() };
 var bounds = [];
 STOPS.forEach(function (s) {
   var label = s.n.split(" · ")[0];
@@ -68,11 +77,17 @@ STOPS.forEach(function (s) {
   L.marker([s.lat, s.lng], { icon: icon }).bindPopup(popup).addTo(GROUPS[s.d]);
   bounds.push([s.lat, s.lng]);
 });
+PARKING.forEach(function (p) {
+  var icon = L.divIcon({ className: "", html: '<div class="pin park">P</div>', iconSize: [24, 24], iconAnchor: [12, 12] });
+  var popup = "<b>" + p.n + "</b><br>Day 3 · Sun Nov 22<br>" + p.t + '<br><a href="https://www.google.com/maps/search/?api=1&query=' + p.q + '" target="_blank" rel="noopener">Open in Google Maps</a>';
+  L.marker([p.lat, p.lng], { icon: icon }).bindPopup(popup).addTo(GROUPS.parking);
+});
 Object.keys(GROUPS).forEach(function (k) { GROUPS[k].addTo(map); });
 L.control.layers(null, {
   "🔵 Day 1 · Fri Nov 20 — National Mall": GROUPS.day1,
   "🟠 Day 2 · Sat Nov 21 — Downtown / Shaw / Anacostia": GROUPS.day2,
   "🟢 Day 3 · Sun Nov 22 — by car": GROUPS.day3,
+  "🅿️ Day 3 parking — all free": GROUPS.parking,
   "🟣 Hotel": GROUPS.hotel,
   "⚫ DCA / Enterprise": GROUPS.airport
 }, { collapsed: false }).addTo(map);
@@ -83,6 +98,7 @@ legend.onAdd = function () {
   div.innerHTML = '<span class="chip" style="background:' + COLORS.day1 + '"></span>Day 1 · Fri (Mall, on foot)<br>' +
     '<span class="chip" style="background:' + COLORS.day2 + '"></span>Day 2 · Sat (Downtown/Shaw/Anacostia)<br>' +
     '<span class="chip" style="background:' + COLORS.day3 + '"></span>Day 3 · Sun (by car)<br>' +
+    '<span class="chip" style="background:#0f766e"></span>P · Day 3 parking (free)<br>' +
     '<span class="chip" style="background:' + COLORS.hotel + '"></span>Hotel<br>' +
     '<span class="chip" style="background:' + COLORS.airport + '"></span>DCA / Enterprise';
   return div;
