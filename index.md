@@ -24,6 +24,7 @@ Harikrishna Dev + Rajashree Chandar
 
 - [Bookings — all confirmed](#bookings)
 - [How stamps work here](#how-stamps-work)
+- [Weather in DC — live forecast](#weather)
 - [Trip map — color-coded by day](#trip-map)
 - [Day 1 — Fri Nov 20: National Mall, on foot](#day-1)
 - [Day 2 — Sat Nov 21: Downtown, Shaw & Anacostia](#day-2)
@@ -71,6 +72,75 @@ Optional **Washington Monument** ticket for Fri Nov 20 — Recreation.gov flagge
 - **America250 stamps:** NPS lists special America250 cancellation stamps at several Mall bookstores in 2026 — ask at each bookstore.
 - **[B] = official NPS brochure pickup:** stops marked [B] have the free official park brochure (unigrid) at the desk named there — grab it where you get the stamp. Full pickup list is in the checklists below.
 - 📍 Each stop below links to its Google Maps location.
+
+## Weather in DC — live forecast {#weather}
+
+Live forecast for Washington, DC, powered by [Open-Meteo](https://open-meteo.com) — free, no account or key. It fetches fresh data every time this page is opened, so it updates automatically; once your trip dates come into range they'll appear in the strip and the cards for **Fri Nov 20 – Sun Nov 22** get a green highlight. Backup: the [National Weather Service forecast for DC](https://forecast.weather.gov/MapClick.php?lat=38.9072&lon=-77.0369).
+
+<div id="wx" class="wx-row"><p>Loading the latest forecast…</p></div>
+<p id="wx-note" class="wx-note"></p>
+
+<style>
+.wx-row { display: flex; gap: 10px; flex-wrap: wrap; margin: 10px 0 4px; }
+.wx-card { flex: 1 1 100px; max-width: 128px; border: 1px solid #d6dee3; border-radius: 10px; padding: 10px 6px; text-align: center; background: #f7faf9; }
+.wx-card.trip { border: 2px solid #2e5a3c; background: #eef6f0; }
+.wx-d { font-weight: 700; font-size: 13px; }
+.wx-i { font-size: 26px; line-height: 1.25; }
+.wx-t { font-size: 14px; font-weight: 600; }
+.wx-c { font-size: 12px; color: #606c71; }
+.wx-p { font-size: 12px; color: #1d6fb8; }
+.wx-note { font-size: 12px; color: #606c71; margin-top: 0; }
+</style>
+
+<script>
+(function () {
+  var el = document.getElementById("wx");
+  var note = document.getElementById("wx-note");
+  var TRIP = { "2026-11-20": 1, "2026-11-21": 1, "2026-11-22": 1 };
+  function wmo(c) {
+    if (c === 0) return ["☀️", "Clear"];
+    if (c === 1 || c === 2) return ["🌤️", "Partly cloudy"];
+    if (c === 3) return ["☁️", "Overcast"];
+    if (c === 45 || c === 48) return ["🌫️", "Fog"];
+    if (c === 51 || c === 53 || c === 55) return ["🌦️", "Drizzle"];
+    if (c === 56 || c === 57) return ["🌦️", "Freezing drizzle"];
+    if (c === 61 || c === 63 || c === 65) return ["🌧️", "Rain"];
+    if (c === 66 || c === 67) return ["🌧️", "Freezing rain"];
+    if (c === 71 || c === 73 || c === 75 || c === 77) return ["🌨️", "Snow"];
+    if (c === 80 || c === 81 || c === 82) return ["🌦️", "Showers"];
+    if (c === 85 || c === 86) return ["🌨️", "Snow showers"];
+    if (c === 95) return ["⛈️", "Thunderstorm"];
+    if (c === 96 || c === 99) return ["⛈️", "Thunderstorm, hail"];
+    return ["🌡️", ""];
+  }
+  function dayName(iso) {
+    var p = iso.split("-");
+    var d = new Date(p[0], p[1] - 1, p[2]);
+    var days = ["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"];
+    var mons = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "Jul", "Aug", "Sep", "Oct", "Nov", "Dec"];
+    return days[d.getDay()] + " " + mons[d.getMonth()] + " " + d.getDate();
+  }
+  fetch("https://api.open-meteo.com/v1/forecast?latitude=38.8951&longitude=-77.0363&daily=weather_code,temperature_2m_max,temperature_2m_min,precipitation_probability_max&temperature_unit=fahrenheit&timezone=America%2FNew_York&forecast_days=10")
+    .then(function (r) { return r.json(); })
+    .then(function (d) {
+      var t = d.daily.time, html = "", seen = 0;
+      for (var i = 0; i < t.length; i++) {
+        var w = wmo(d.daily.weather_code[i]);
+        var isTrip = TRIP[t[i]] ? " trip" : "";
+        if (TRIP[t[i]]) seen++;
+        var pp = d.daily.precipitation_probability_max[i];
+        html += '<div class="wx-card' + isTrip + '"><div class="wx-d">' + dayName(t[i]) + (TRIP[t[i]] ? " · TRIP" : "") + '</div><div class="wx-i">' + w[0] + '</div><div class="wx-t">' + Math.round(d.daily.temperature_2m_max[i]) + "° / " + Math.round(d.daily.temperature_2m_min[i]) + "°F</div><div class=\"wx-c\">" + w[1] + '</div><div class="wx-p">' + (pp === null || pp === undefined ? "" : "💧 " + pp + "%") + "</div></div>";
+      }
+      el.innerHTML = html;
+      note.textContent = seen === 0
+        ? "Showing the next 10 days. Your trip (Nov 20–22) is still beyond the 10-day forecast window — check back during trip week and those days will be highlighted here."
+        : "Your trip days are in this forecast — the green cards are the ones that matter. Dress for the Day 1 card especially: it's all on foot.";
+    })
+    .catch(function () {
+      el.innerHTML = '<p>Could not load the live forecast right now — use the <a href="https://forecast.weather.gov/MapClick.php?lat=38.9072&lon=-77.0369">National Weather Service forecast for DC</a> instead.</p>';
+    });
+})();
+</script>
 
 ## Trip map — color-coded by day {#trip-map}
 
