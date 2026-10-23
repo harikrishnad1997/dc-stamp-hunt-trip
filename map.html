@@ -13,7 +13,8 @@
   #map { height: calc(100% - 62px); }
   .pin { border-radius: 50%; color: #fff; font-weight: 700; font-size: 12px; text-align: center; line-height: 24px; width: 24px; height: 24px; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.45); }
   .pin.park { border-radius: 6px; background: #0f766e; }
-  .legend { background: #fff; padding: 8px 10px; border-radius: 6px; box-shadow: 0 1px 5px rgba(0,0,0,.3); font-size: 13px; line-height: 1.7; }
+  .legend { background: rgba(255,255,255,.92); padding: 6px 8px; border-radius: 6px; box-shadow: 0 1px 5px rgba(0,0,0,.3); font-size: 12px; line-height: 1.55; }
+  @media (max-width: 700px) { .legend { display: none; } }
   .legend .chip { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
   .leaflet-popup-content { font-size: 14px; }
 </style>
@@ -21,7 +22,7 @@
 <body>
 <div id="bar">
   <h1>DC Stamp Hunt — Trip Map</h1>
-  <p>Every stop, color-coded by day. Use the checkboxes (top right) to filter by day. Tap a pin for the stop name and a Google Maps link.</p>
+  <p>Every stop, color-coded by day. Use the layer filter (top right) to show one day at a time. Tap a pin for the stop name and a Google Maps link.</p>
 </div>
 <div id="map"></div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -90,7 +91,7 @@ L.control.layers(null, {
   "🅿️ Day 3 parking — all free": GROUPS.parking,
   "🟣 Hotel": GROUPS.hotel,
   "⚫ DCA / Enterprise": GROUPS.airport
-}, { collapsed: false }).addTo(map);
+}, { collapsed: window.innerWidth < 700 }).addTo(map);
 map.fitBounds(bounds, { padding: [25, 25] });
 var legend = L.control({ position: "bottomright" });
 legend.onAdd = function () {
