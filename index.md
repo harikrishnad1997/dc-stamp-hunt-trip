@@ -8,6 +8,18 @@ title: DC Stamp Hunt — NPS Passport Itinerary, Nov 19–22, 2026
 **NPS Passport Itinerary · Thu Nov 19 – Sun Nov 22, 2026 · 3 days, DC only**
 Harikrishna Dev + Rajashree Chandar
 
+<style>
+.trip-fig { margin: 14px 0; }
+.trip-fig img { width: 100%; height: auto; border-radius: 10px; display: block; }
+.trip-fig figcaption { font-size: 0.85em; color: #606c71; text-align: center; margin-top: 5px; }
+.photo-row { display: flex; gap: 12px; flex-wrap: wrap; margin: 6px 0 10px; }
+.photo-row .trip-fig { flex: 1 1 260px; margin: 0; }
+.photo-row .trip-fig img { height: 220px; object-fit: cover; }
+.hero-fig img { max-height: 420px; object-fit: cover; }
+</style>
+
+<figure class="trip-fig hero-fig"><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Reflecting%20Pool%20on%20the%20National%20Mall%20with%20the%20Washington%20Monument%20reflected%2C%20Washington%2C%20D.C.%2C%20by%20Carol%20M.%20Highsmith.jpg?width=1280" alt="The National Mall — the Washington Monument over the Reflecting Pool. Day 1 walks this end to end." loading="lazy"><figcaption>The National Mall — the Washington Monument over the Reflecting Pool. Day 1 walks this end to end.</figcaption></figure>
+
 ## Contents {#contents}
 
 - [Bookings — all confirmed](#bookings)
@@ -68,6 +80,11 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 
 ## Day 1 — Fri Nov 20: National Mall, on foot {#day-1}
 
+<div class="photo-row">
+<figure class="trip-fig "><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Lincoln%20Memorial%20interior%20with%20statue.jpg?width=1280" alt="Lincoln Memorial — the Daniel Chester French statue" loading="lazy"><figcaption>Lincoln Memorial — the Daniel Chester French statue</figcaption></figure>
+<figure class="trip-fig "><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Jefferson%20Memorial%20At%20Dusk%201.jpg?width=1280" alt="Jefferson Memorial at dusk, across the Tidal Basin" loading="lazy"><figcaption>Jefferson Memorial at dusk, across the Tidal Basin</figcaption></figure>
+</div>
+
 - **8:30 AM — [Lincoln Memorial](https://www.google.com/maps/search/?api=1&query=Lincoln+Memorial+Washington+DC).** Start early before crowds. Stamp at the bookstore trailer. [B] Brochures for Lincoln + Korean War + Vietnam are at this desk / the Mall information kiosks — collect all three here. Lincoln, Korean War, Vietnam, and Constitution Gardens stamps are all at this one desk. Quick look at Vietnam Women's Memorial + Three Soldiers nearby.
 - **9:45 AM — [Korean War Veterans Memorial](https://www.google.com/maps/search/?api=1&query=Korean+War+Veterans+Memorial+Washington+DC).** Short walk. Stamp already collected at the Lincoln desk.
 - **10:15 AM — [Vietnam Veterans Memorial](https://www.google.com/maps/search/?api=1&query=Vietnam+Veterans+Memorial+Washington+DC).** The Wall + Three Soldiers. Stamp already collected at the Lincoln desk.
@@ -82,6 +99,11 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 
 ## Day 2 — Sat Nov 21: Downtown, Shaw & Anacostia, on foot + Metro/bus {#day-2}
 
+<div class="photo-row">
+<figure class="trip-fig "><img src="https://commons.wikimedia.org/wiki/Special:FilePath/USA-Ford%20Theatre0.jpg?width=1280" alt="Ford's Theatre, 10th Street NW — 10:00 AM entry" loading="lazy"><figcaption>Ford's Theatre, 10th Street NW — 10:00 AM entry</figcaption></figure>
+<figure class="trip-fig "><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Douglass%2C%20Frederick%2C%20National%20Historic%20Site.jpg?width=1280" alt="Cedar Hill — the Frederick Douglass National Historic Site, Anacostia" loading="lazy"><figcaption>Cedar Hill — the Frederick Douglass National Historic Site, Anacostia</figcaption></figure>
+</div>
+
 - **9:00 AM — [White House Visitor Center (President's Park)](https://www.google.com/maps/search/?api=1&query=White+House+Visitor+Center+Washington+DC).** [B] Brochure at the visitor center, same place as the stamp. Lafayette Square + White House viewing from outside. Nearest Metro: McPherson Square / Metro Center.
 - **10:00 AM — [Ford's Theatre NHS + Pennsylvania Avenue NHS](https://www.google.com/maps/search/?api=1&query=Fords+Theatre+Washington+DC).** [B] Brochure in the lobby / bookstore. Stamps for both at the Ford's bookstore. **Timed entry booked, 10:00 AM** — covers the theatre + Petersen House across the street.
 - **11:15 AM — [Clara Barton Missing Soldiers Office Museum](https://www.google.com/maps/search/?api=1&query=Clara+Barton+Missing+Soldiers+Office+Museum+Washington+DC)** *(optional)* — 437 7th St NW. Not an NPS stamp site. Only if Ford's runs early — the timed anchor today is the Woodson 1:15 PM tour (Bethune is closed, so there's slack now).
@@ -94,6 +116,15 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 > **Day 2 transit note:** On foot + Metro/bus during the day (~4 miles walking), car only from the evening pickup on. SmarTrip / contactless needed for Metro + Metrobus. The Star-Spangled Banner Trail stamp at the Navy Museum (Navy Yard) is not scheduled — only if a real gap opens.
 
 ## Day 3 — Sun Nov 22: by car, then fly home {#day-3}
+
+<div class="photo-row">
+<figure class="trip-fig "><img src="https://commons.wikimedia.org/wiki/Special:FilePath/View%20across%20moat%20to%20west%20bridge%20from%20entrance%20to%20Theodore%20Roosevelt%20Memorial%20-%20Theodore%20Roosevelt%20Island%2C%20Potomac%20River%2C%20Washington%2C%20District%20of%20Columbia%2C%20DC%20HALS%20DC-12-8.tif?width=1280" alt="Theodore Roosevelt Island — the memorial plaza moat and bridge" loading="lazy"><figcaption>Theodore Roosevelt Island — the memorial plaza moat and bridge</figcaption></figure>
+<figure class="trip-fig "><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Tourist%20barge%20at%20the%20Georgetown%20lock%20on%20the%20Chesapeake%20%26%20Ohio%20Canal%2C%20Washington%2C%20D.C%20LCCN2011636264.tif?width=1280" alt="The C&O Canal at the Georgetown lock (Carol M. Highsmith photo)" loading="lazy"><figcaption>The C&O Canal at the Georgetown lock (Carol M. Highsmith photo)</figcaption></figure>
+</div>
+<div class="photo-row">
+<figure class="trip-fig "><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Visiting%20Kenilworth%20Park%20%26%20Aquatic%20Gardens%20%28675b65c5-2a96-4bc8-92fc-1fb5107853c5%29.jpg?width=1280" alt="Kenilworth Park & Aquatic Gardens" loading="lazy"><figcaption>Kenilworth Park & Aquatic Gardens</figcaption></figure>
+<figure class="trip-fig "><img src="https://commons.wikimedia.org/wiki/Special:FilePath/Sewall-Belmont%20House%20with%20Hart%20Senate%20Office%20Building.jpg?width=1280" alt="Belmont-Paul Women's Equality National Monument (the Sewall-Belmont House)" loading="lazy"><figcaption>Belmont-Paul Women's Equality National Monument (the Sewall-Belmont House)</figcaption></figure>
+</div>
 
 - **9:00 AM — [Theodore Roosevelt Island](https://www.google.com/maps/search/?api=1&query=Theodore+Roosevelt+Island+Parking+Arlington+VA).** [B] Trail-map brochure in the trailhead box (stock varies — download the PDF from nps.gov first). Parking off northbound GW Parkway, footbridge to the island. Easy wooded loop, ~45 min. Straight ~15-min drive from the hotel — the car was picked up Sat night.
 - **10:15 AM — [C&O Canal, Georgetown Visitor Center](https://www.google.com/maps/search/?api=1&query=Chesapeake+and+Ohio+Canal+Georgetown+Visitor+Center+1057+Thomas+Jefferson+St+NW+Washington+DC).** [B] Brochure at the desk, same desk as the stamp. Open Sunday 9 AM–4 PM. Cross Key Bridge from the island (~10 min). Short towpath walk if time allows.
@@ -238,3 +269,5 @@ For the semiquincentennial, NPS has special **America250™ commemorative passpo
 ---
 
 *Itinerary v11 · Flights, hotel, tours, and rental car all booked (confirmation numbers kept in the PDF itinerary, not on this page) · Only the optional Washington Monument ticket is outstanding (retry Thu Nov 19, 3:00 PM ET) · Bethune Council House closed for renovation until Jan 27, 2027 — its stamp is at the Douglass visitor center · Stamp locations verified against the NPS National Mall, NACE, and America250 pages, Oct 2026 · Rock Creek Nature Center Sunday status to recheck the week of the trip.*
+
+*Photos: Wikimedia Commons — public domain (Carol M. Highsmith; NPS; Historic American Landscapes Survey) and CC BY / CC BY-SA photographers, via the file pages for the Reflecting Pool, Lincoln Memorial interior, Jefferson Memorial at dusk, Ford's Theatre, Frederick Douglass NHS, Theodore Roosevelt Island, the Georgetown canal lock, Kenilworth Gardens, and the Sewall-Belmont House.*
