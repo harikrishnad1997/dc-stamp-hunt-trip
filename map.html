@@ -13,6 +13,7 @@
   #map { height: calc(100% - 62px); }
   .pin { border-radius: 50%; color: #fff; font-weight: 700; font-size: 12px; text-align: center; line-height: 24px; width: 24px; height: 24px; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.45); }
   .pin.park { border-radius: 6px; background: #0f766e; }
+  .pin.desk { border-radius: 6px; background: #b91c1c; }
   .legend { background: rgba(255,255,255,.92); padding: 6px 8px; border-radius: 6px; box-shadow: 0 1px 5px rgba(0,0,0,.3); font-size: 12px; line-height: 1.55; }
   @media (max-width: 700px) { .legend { display: none; } }
   .legend .chip { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
@@ -74,7 +75,27 @@ var PARKING = [
   { n: "P · Fort Washington Park parking", lat: 38.71300, lng: -77.02980, t: "FREE — lots by the visitor center, 13551 Fort Washington Rd, MD. (NPS lists a $10/vehicle entrance fee, reportedly not collected since 2019 — carry a card.)", q: "Fort+Washington+Park+Maryland" },
   { n: "P · Anacostia Park parking lots", lat: 38.87850, lng: -76.97060, t: "FREE — park lots along Anacostia Drive SE, near the NACE headquarters.", q: "Anacostia+Park+Washington+DC" }
 ];
-var GROUPS = { day1: L.layerGroup(), day2: L.layerGroup(), day3: L.layerGroup(), hotel: L.layerGroup(), airport: L.layerGroup(), parking: L.layerGroup() };
+var DESKS = [
+  { n: "Lincoln Memorial Bookstore (trailer)", g: "Day 1 - Fri Nov 20", a: "2 Lincoln Memorial Cir NW", t: "Constitution Gardens, Korean War, Lincoln, Vietnam, Vietnam Women's, Signers of the Declaration, John Ericsson", lat: 38.88925, lng: -77.05017, q: "Lincoln+Memorial+Bookstore+Washington+DC" },
+  { n: "World War II Memorial Information Desk", g: "Day 1 - Fri Nov 20", a: "1750 Independence Ave SW", t: "World War II Memorial, Constitution Gardens, John Paul Jones, 56 Signers", lat: 38.88928, lng: -77.04053, q: "World+War+II+Memorial+Washington+DC" },
+  { n: "Washington Monument Lodge", g: "Day 1 - Fri Nov 20", a: "2 15th St NW", t: "National Mall, Washington Monument, World War I Memorial (Pershing Park), Lockkeeper's House, Old Post Office Tower", lat: 38.88945, lng: -77.03525, q: "Washington+Monument+Lodge+Washington+DC" },
+  { n: "Eisenhower Memorial Bookstore", g: "Day 1 - Fri Nov 20", a: "540 Independence Ave SW", t: "Eisenhower, National Mall & Memorial Parks, Belmont-Paul (backup), Grant Memorial, Japanese American Memorial, American Veterans Disabled for Life, George Meade", lat: 38.88731, lng: -77.01954, q: "Dwight+D+Eisenhower+Memorial+Washington+DC" },
+  { n: "MLK Jr. Memorial Bookstore", g: "Day 1 - Fri Nov 20", a: "1964 Independence Ave SW", t: "MLK Jr., DC War Memorial, African American Civil War Memorial (backup), Thomas Jefferson, John Paul Jones, John Ericsson", lat: 38.88630, lng: -77.04433, q: "Martin+Luther+King+Jr+Memorial+Bookstore+Washington+DC" },
+  { n: "FDR Memorial Bookstore", g: "Day 1 - Fri Nov 20", a: "1850 West Basin Dr SW", t: "FDR, World War II, World War I, Pennsylvania Avenue NHS, George Mason, Titanic Memorial", lat: 38.88448, lng: -77.04521, q: "Franklin+Delano+Roosevelt+Memorial+Washington+DC" },
+  { n: "Jefferson Memorial Bookstore", g: "Day 1 - Fri Nov 20", a: "16 E Basin Dr SW", t: "Thomas Jefferson, George Mason, Titanic, National Mall & Memorial Parks", lat: 38.88140, lng: -77.03656, q: "Thomas+Jefferson+Memorial+Washington+DC" },
+  { n: "White House Visitor Center", g: "Day 2 - Sat Nov 21", a: "1450 Pennsylvania Ave NW", t: "President's Park / The White House", lat: 38.89514, lng: -77.03280, q: "White+House+Visitor+Center+Washington+DC" },
+  { n: "Ford's Theatre Box Office + Bookstore", g: "Day 2 - Sat Nov 21", a: "511 10th St NW", t: "Ford's Theatre NHS, Petersen House, Pennsylvania Avenue NHS, US Navy Memorial", lat: 38.89659, lng: -77.02580, q: "Fords+Theatre+Washington+DC" },
+  { n: "Carter G. Woodson Home NHS", g: "Day 2 - Sat Nov 21", a: "1538 9th St NW", t: "Carter G. Woodson Home (tour check-in is here)", lat: 38.91082, lng: -77.02418, q: "Carter+G+Woodson+Home+National+Historic+Site+Washington+DC" },
+  { n: "Frederick Douglass NHS Visitor Center", g: "Day 2 - Sat Nov 21", a: "1411 W St SE", t: "Frederick Douglass, Mary McLeod Bethune Council House, Carter G. Woodson, Capitol Hill Parks, National Capital Parks-East, Underground Railroad Network to Freedom", lat: 38.86299, lng: -76.98503, q: "Frederick+Douglass+National+Historic+Site+Washington+DC" },
+  { n: "Theodore Roosevelt Island trailhead (unstaffed)", g: "Day 3 - Sun Nov 22", a: "Island trailhead at the footbridge, GW Parkway", t: "Brochure box only - no staffed desk; the island stamp's location varies, ask a ranger if present", lat: 38.89562, lng: -77.06655, q: "Theodore+Roosevelt+Island+Washington+DC" },
+  { n: "Arlington House Bookstore", g: "Day 3 - Sun Nov 22", a: "Arlington National Cemetery - the house at the top of the hill", t: "Arlington House, Lyndon Baines Johnson Memorial Grove, Theodore Roosevelt Island + GW Parkway selection", lat: 38.88244, lng: -77.07326, q: "Arlington+House+Arlington+National+Cemetery" },
+  { n: "C&O Canal Georgetown Visitor Center", g: "Day 3 - Sun Nov 22", a: "1057 Thomas Jefferson St NW", t: "Chesapeake & Ohio Canal NHP, Potomac Heritage Trail", lat: 38.90432, lng: -77.05997, q: "Chesapeake+and+Ohio+Canal+Georgetown+Visitor+Center+Washington+DC" },
+  { n: "Old Stone House (Rock Creek Park station)", g: "Day 3 - Sun Nov 22", a: "3051 M St NW, Georgetown", t: "Rock Creek Park stamp set + park brochure", lat: 38.90533, lng: -77.06049, q: "Old+Stone+House+3051+M+St+NW+Washington+DC" },
+  { n: "Kenilworth Aquatic Gardens Visitor Center", g: "Day 3 - Sun Nov 22", a: "1550 Anacostia Ave NE", t: "Kenilworth, Anacostia Park (ONLY here), Capitol Hill Parks, Civil War Defenses of Washington, Baltimore-Washington Parkway, Fort Dupont, National Capital Parks-East, Potomac Heritage Trail", lat: 38.91263, lng: -76.94181, q: "Kenilworth+Park+and+Aquatic+Gardens+Washington+DC" },
+  { n: "Belmont-Paul Women's Equality NM (house desk)", g: "Day 3 - Sun Nov 22", a: "144 Constitution Ave NE", t: "Belmont-Paul Women's Equality NM", lat: 38.89219, lng: -77.00376, q: "Belmont-Paul+Womens+Equality+National+Monument+Washington+DC" },
+  { n: "Fort Washington Park Visitor Center", g: "Day 3 - Sun Nov 22", a: "13551 Fort Washington Rd, Fort Washington, MD", t: "Fort Washington, Fort Foote, Harmony Hall, Piscataway Park, Potomac Heritage Trail, Star-Spangled Banner Trail", lat: 38.71261, lng: -77.03317, q: "Fort+Washington+Park+Visitor+Center+Maryland" }
+];
+var GROUPS = { day1: L.layerGroup(), day2: L.layerGroup(), day3: L.layerGroup(), hotel: L.layerGroup(), airport: L.layerGroup(), parking: L.layerGroup(), desks: L.layerGroup() };
 var bounds = [];
 STOPS.forEach(function (s) {
   var label = s.n.split(" · ")[0];
@@ -88,12 +109,18 @@ PARKING.forEach(function (p) {
   var popup = "<b>" + p.n + "</b><br>Day 3 · Sun Nov 22<br>" + p.t + '<br><a href="https://www.google.com/maps/search/?api=1&query=' + p.q + '" target="_blank" rel="noopener">Open in Google Maps</a>';
   L.marker([p.lat, p.lng], { icon: icon }).bindPopup(popup).addTo(GROUPS.parking);
 });
+DESKS.forEach(function (d) {
+  var icon = L.divIcon({ className: "", html: '<div class="pin desk">S</div>', iconSize: [24, 24], iconAnchor: [12, 12] });
+  var popup = "<b>" + d.n + "</b><br>" + d.g + "<br>" + d.a + "<br><b>Stamps:</b> " + d.t + '<br><a href="https://www.google.com/maps/search/?api=1&query=' + d.q + '" target="_blank" rel="noopener">Open in Google Maps</a>';
+  L.marker([d.lat, d.lng], { icon: icon }).bindPopup(popup).addTo(GROUPS.desks);
+});
 Object.keys(GROUPS).forEach(function (k) { GROUPS[k].addTo(map); });
 L.control.layers(null, {
   "🔵 Day 1 · Fri Nov 20 — National Mall": GROUPS.day1,
   "🟠 Day 2 · Sat Nov 21 — Downtown / Shaw / Anacostia": GROUPS.day2,
   "🟢 Day 3 · Sun Nov 22 — by car": GROUPS.day3,
   "🅿️ Day 3 parking": GROUPS.parking,
+  "🔴 Stamp desks / visitor centers": GROUPS.desks,
   "🟣 Hotel": GROUPS.hotel,
   "⚫ DCA / Enterprise": GROUPS.airport
 }, { collapsed: window.innerWidth < 700 }).addTo(map);
@@ -105,6 +132,7 @@ legend.onAdd = function () {
     '<span class="chip" style="background:' + COLORS.day2 + '"></span>Day 2 · Sat (Downtown/Shaw/Anacostia)<br>' +
     '<span class="chip" style="background:' + COLORS.day3 + '"></span>Day 3 · Sun (by car)<br>' +
     '<span class="chip" style="background:#0f766e"></span>P · Day 3 parking (Arlington garage paid; rest free)<br>' +
+    '<span class="chip" style="background:#b91c1c"></span>S · Stamp desk / visitor center<br>' +
     '<span class="chip" style="background:' + COLORS.hotel + '"></span>Hotel<br>' +
     '<span class="chip" style="background:' + COLORS.airport + '"></span>DCA / Enterprise';
   return div;
