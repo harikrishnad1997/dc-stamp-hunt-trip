@@ -75,7 +75,8 @@ Optional **Washington Monument** ticket for Fri Nov 20 — Recreation.gov flagge
 
 ## Weather in DC — live forecast {#weather}
 
-Live forecast for Washington, DC, powered by [Open-Meteo](https://open-meteo.com) — free, no account or key. It fetches fresh data every time this page is opened, so it updates automatically; once your trip dates come into range they'll appear in the strip and the cards for **Fri Nov 20 – Sun Nov 22** get a green highlight. Backup: the [National Weather Service forecast for DC](https://forecast.weather.gov/MapClick.php?lat=38.9072&lon=-77.0369).
+Live forecast for Washington, DC, powered by [Open-Meteo](https://open-meteo.com) 
+Backup: the [National Weather Service forecast for DC](https://forecast.weather.gov/MapClick.php?lat=38.9072&lon=-77.0369).
 
 <div id="wx" class="wx-row"><p>Loading the latest forecast…</p></div>
 <p id="wx-note" class="wx-note"></p>
@@ -221,82 +222,82 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 ## Stamp checklist {#stamp-checklist}
 
 ### Day 1 — Fri Nov 20, National Mall
-- [ ] Lincoln Memorial
-- [ ] Korean War Veterans Memorial
-- [ ] Vietnam Veterans Memorial
-- [ ] World War II Memorial (at FDR bookstore)
-- [ ] National Mall (at Washington Monument Lodge)
-- [ ] Washington Monument (at Lodge)
-- [ ] DC War Memorial (stamp at the MLK Jr. Memorial Bookstore)
-- [ ] World War I Memorial — Pershing Park (at the Lodge or the FDR bookstore)
-- [ ] Dwight D. Eisenhower Memorial
-- [ ] Martin Luther King Jr. Memorial
-- [ ] Franklin D. Roosevelt Memorial
-- [ ] Thomas Jefferson Memorial
-- [ ] Constitution Gardens (at Lincoln bookstore)
-- [ ] America250 stamp(s) — ask at each bookstore
+- Lincoln Memorial
+- Korean War Veterans Memorial
+- Vietnam Veterans Memorial
+- World War II Memorial (at FDR bookstore)
+- National Mall (at Washington Monument Lodge)
+- Washington Monument (at Lodge)
+- DC War Memorial (stamp at the MLK Jr. Memorial Bookstore)
+- World War I Memorial — Pershing Park (at the Lodge or the FDR bookstore)
+- Dwight D. Eisenhower Memorial
+- Martin Luther King Jr. Memorial
+- Franklin D. Roosevelt Memorial
+- Thomas Jefferson Memorial
+- Constitution Gardens (at Lincoln bookstore)
+- America250 stamp(s) — ask at each bookstore
 
 ### Day 2 — Sat Nov 21, Downtown / Shaw / Anacostia
-- [ ] President's Park / White House (White House Visitor Center)
-- [ ] Pennsylvania Avenue NHS (at Ford's Theatre bookstore)
-- [ ] Ford's Theatre NHS
-- [ ] Mary McLeod Bethune Council House NHS — site CLOSED for renovation; stamp is at the Frederick Douglass NHS visitor center (Day 2, 3 PM)
-- [ ] Capitol Hill Parks (bonus — at the Douglass VC or the Kenilworth VC)
-- [ ] Carter G. Woodson Home NHS — 1:15 PM tour
-- [ ] Frederick Douglass NHS — 3:30 PM tour (no Sun/Mon tours)
-- [ ] Star-Spangled Banner Trail — Navy Yard (not scheduled, flex only)
+- President's Park / White House (White House Visitor Center)
+- Pennsylvania Avenue NHS (at Ford's Theatre bookstore)
+- Ford's Theatre NHS
+- Mary McLeod Bethune Council House NHS — site CLOSED for renovation; stamp is at the Frederick Douglass NHS visitor center (Day 2, 3 PM)
+- Capitol Hill Parks (bonus — at the Douglass VC or the Kenilworth VC)
+- Carter G. Woodson Home NHS — 1:15 PM tour
+- Frederick Douglass NHS — 3:30 PM tour (no Sun/Mon tours)
+- Star-Spangled Banner Trail — Navy Yard (not scheduled, flex only)
 
 ### Day 3 — Sun Nov 22, by car
-- [ ] Theodore Roosevelt Island
-- [ ] Chesapeake & Ohio Canal NHP — Georgetown Visitor Center
-- [ ] Rock Creek Park
-- [ ] Kenilworth Park & Aquatic Gardens
-- [ ] Belmont-Paul Women's Equality National Monument
-- [ ] National Capital Parks-East / Anacostia Park (Anacostia Park stamp is ONLY at the Kenilworth VC per NPS; HQ stop optional)
+- Theodore Roosevelt Island
+- Chesapeake & Ohio Canal NHP — Georgetown Visitor Center
+- Rock Creek Park
+- Kenilworth Park & Aquatic Gardens
+- Belmont-Paul Women's Equality National Monument
+- National Capital Parks-East / Anacostia Park (Anacostia Park stamp is ONLY at the Kenilworth VC per NPS; HQ stop optional)
 
 ## Official NPS brochure pickup list — [B] stops {#brochure-list}
 
 ### Day 1 — National Mall
-- [ ] Lincoln Memorial brochure — Lincoln bookstore trailer / Mall info kiosk (also Korean War + Vietnam brochures)
-- [ ] National Mall + Washington Monument brochures — Washington Monument Lodge / Survey Lodge rack
-- [ ] Dwight D. Eisenhower Memorial brochure — Eisenhower bookstore
-- [ ] Martin Luther King Jr. Memorial brochure — MLK bookstore
-- [ ] Franklin D. Roosevelt Memorial brochure — FDR bookstore (ask for the World War II Memorial brochure too)
-- [ ] Thomas Jefferson Memorial brochure — Jefferson bookstore
+- Lincoln Memorial brochure — Lincoln bookstore trailer / Mall info kiosk (also Korean War + Vietnam brochures)
+- National Mall + Washington Monument brochures — Washington Monument Lodge / Survey Lodge rack
+- Dwight D. Eisenhower Memorial brochure — Eisenhower bookstore
+- Martin Luther King Jr. Memorial brochure — MLK bookstore
+- Franklin D. Roosevelt Memorial brochure — FDR bookstore (ask for the World War II Memorial brochure too)
+- Thomas Jefferson Memorial brochure — Jefferson bookstore
 
 ### Day 2 — Downtown / Shaw / Anacostia
-- [ ] President's Park / White House brochure — White House Visitor Center
-- [ ] Ford's Theatre brochure — Ford's Theatre lobby / bookstore
-- [ ] Mary McLeod Bethune Council House brochure — house CLOSED; ask at the Frederick Douglass NHS visitor center or the Woodson VC
-- [ ] Carter G. Woodson Home brochure — at the house (backup: Frederick Douglass NHS visitor center)
-- [ ] Frederick Douglass NHS brochure — Douglass visitor center
+- President's Park / White House brochure — White House Visitor Center
+- Ford's Theatre brochure — Ford's Theatre lobby / bookstore
+- Mary McLeod Bethune Council House brochure — house CLOSED; ask at the Frederick Douglass NHS visitor center or the Woodson VC
+- Carter G. Woodson Home brochure — at the house (backup: Frederick Douglass NHS visitor center)
+- Frederick Douglass NHS brochure — Douglass visitor center
 
 ### Day 3 — by car
-- [ ] Theodore Roosevelt Island brochure / trail map — trailhead box (download the PDF first)
-- [ ] C&O Canal NHP brochure — Georgetown Visitor Center desk
-- [ ] Rock Creek Park brochure + map — Nature Center, Peirce Mill, or Old Stone House
-- [ ] Kenilworth brochure — Kenilworth visitor center (also Anacostia Park brochure)
-- [ ] Belmont-Paul brochure — at the house
-- [ ] National Capital Parks-East brochures — Anacostia Park HQ (backup pickup point)
+- Theodore Roosevelt Island brochure / trail map — trailhead box (download the PDF first)
+- C&O Canal NHP brochure — Georgetown Visitor Center desk
+- Rock Creek Park brochure + map — Nature Center, Peirce Mill, or Old Stone House
+- Kenilworth brochure — Kenilworth visitor center (also Anacostia Park brochure)
+- Belmont-Paul brochure — at the house
+- National Capital Parks-East brochures — Anacostia Park HQ (backup pickup point)
 
 ## Packing checklist {#packing-checklist}
 
-- [ ] National Parks Passport book + loose paper / index cards for backup stamps
-- [ ] Folder / large envelope for the [B] brochures
-- [ ] Small ink pad (backup) + pen
-- [ ] Photo ID (flights, tours) + driver's license for the rental pickup
-- [ ] AA boarding passes — check in Wed Nov 18 + Sat Nov 21, screenshots saved
-- [ ] Tour tickets (Sat Nov 21): Ford's 10:00 AM + Woodson 1:15 PM + Douglass 3:30 PM — screenshots saved
-- [ ] Rental car (booked): Enterprise DCA — pickup Sat Nov 21, 8:30 PM, return Sun Nov 22 by 6:00 PM
-- [ ] Hotel: Washington Plaza — call Thu Nov 19 re ~1 AM arrival; Sun checkout before 9 AM; confirm Sat overnight parking rate
-- [ ] Comfortable walking shoes — Day 1 is 4–5 miles
-- [ ] Warm layer + rain layer (late Nov in DC)
-- [ ] Water bottle + snacks (Day 2 in the daypack, Day 3 in the car)
-- [ ] Sunscreen, sunglasses, hat; bug spray (Kenilworth, Roosevelt Island, Rock Creek)
-- [ ] SmarTrip / contactless for Metro + Metrobus (Day 1–2)
-- [ ] Phone charger / power bank + offline maps
-- [ ] Small daypack (bag checks; no car to stash bags on Day 2)
-- [ ] Vegetarian snacks / lunch plan — check veg menus the night before
+- National Parks Passport book + loose paper / index cards for backup stamps
+- Folder / large envelope for the [B] brochures
+- Small ink pad (backup) + pen
+- Photo ID (flights, tours) + driver's license for the rental pickup
+- AA boarding passes — check in Wed Nov 18 + Sat Nov 21, screenshots saved
+- Tour tickets (Sat Nov 21): Ford's 10:00 AM + Woodson 1:15 PM + Douglass 3:30 PM — screenshots saved
+- Rental car (booked): Enterprise DCA — pickup Sat Nov 21, 8:30 PM, return Sun Nov 22 by 6:00 PM
+- Hotel: Washington Plaza — call Thu Nov 19 re ~1 AM arrival; Sun checkout before 9 AM; confirm Sat overnight parking rate
+- Comfortable walking shoes — Day 1 is 4–5 miles
+- Warm layer + rain layer (late Nov in DC)
+- Water bottle + snacks (Day 2 in the daypack, Day 3 in the car)
+- Sunscreen, sunglasses, hat; bug spray (Kenilworth, Roosevelt Island, Rock Creek)
+- SmarTrip / contactless for Metro + Metrobus (Day 1–2)
+- Phone charger / power bank + offline maps
+- Small daypack (bag checks; no car to stash bags on Day 2)
+- Vegetarian snacks / lunch plan — check veg menus the night before
 
 ## Where the stamps live — sites without a visitor center {#stamp-locations}
 
@@ -323,21 +324,19 @@ Most Mall memorials and several east-side sites have no visitor center or desk o
 For the semiquincentennial, NPS has special **America250™ commemorative passport stamps** at 8 Mall-area desks (source: NPS [America250 stamp locations](https://www.nps.gov/places/nama-250-stamp-locations.htm), checked Oct 2026). Every desk is already on your route — when you stamp at each one, ask for the America250 version for its sites.
 
 **Day 1 — Fri Nov 20 (six desks, all on the Mall route)**
-- [ ] Washington Monument Lodge — America250: National Mall, Washington Monument, World War I Memorial
-- [ ] Lincoln Memorial Bookstore Trailer — America250: Constitution Gardens, Korean War, Lincoln, Vietnam
-- [ ] Eisenhower Memorial Bookstore — America250: Eisenhower Memorial
-- [ ] MLK Jr. Memorial Bookstore — America250: MLK Jr. Memorial
-- [ ] FDR Memorial Bookstore — America250: FDR Memorial, World War II Memorial
-- [ ] Jefferson Memorial Bookstore — America250: Thomas Jefferson Memorial
+- Washington Monument Lodge — America250: National Mall, Washington Monument, World War I Memorial
+- Lincoln Memorial Bookstore Trailer — America250: Constitution Gardens, Korean War, Lincoln, Vietnam
+- Eisenhower Memorial Bookstore — America250: Eisenhower Memorial
+- MLK Jr. Memorial Bookstore — America250: MLK Jr. Memorial
+- FDR Memorial Bookstore — America250: FDR Memorial, World War II Memorial
+- Jefferson Memorial Bookstore — America250: Thomas Jefferson Memorial
 
 **Day 2 — Sat Nov 21**
-- [ ] Ford's Theatre Bookstore — America250: Ford's Theatre NHS, Pennsylvania Avenue NHS
+- Ford's Theatre Bookstore — America250: Ford's Theatre NHS, Pennsylvania Avenue NHS
 
 **Day 3 — Sun Nov 22**
-- [ ] Belmont-Paul Women's Equality House — America250: Belmont-Paul Women's Equality NM
+- Belmont-Paul Women's Equality House — America250: Belmont-Paul Women's Equality NM
 
 ---
-
-*Itinerary v12 · Day 3 parking is free at every stop (NPS lots + DC's Sunday no-meter-enforcement), with parking pins on the map · Flights, hotel, tours, and rental car all booked (confirmation numbers kept in the PDF itinerary, not on this page) · Only the optional Washington Monument ticket is outstanding (retry Thu Nov 19, 3:00 PM ET) · Bethune Council House closed for renovation until Jan 27, 2027 — its stamp is at the Douglass visitor center · Stamp locations verified against the NPS National Mall, NACE, and America250 pages, Oct 2026 · Rock Creek Nature Center Sunday status to recheck the week of the trip.*
 
 *Photos: Wikimedia Commons — public domain (Carol M. Highsmith; NPS; Historic American Landscapes Survey) and CC BY / CC BY-SA photographers, via the file pages for the Reflecting Pool, Lincoln Memorial interior, Jefferson Memorial at dusk, Ford's Theatre, Frederick Douglass NHS, Theodore Roosevelt Island, the Georgetown canal lock, Kenilworth Gardens, and the Sewall-Belmont House.*
