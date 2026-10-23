@@ -41,7 +41,7 @@ Good to know:
 | File | What it is |
 | --- | --- |
 | `index.md` | The full itinerary page (Jekyll source for the live site): day plans, bookings summary, live weather widget, stamp + brochure + packing checklists, NPS stamp-location reference, America 250 stamp checklist |
-| `map.html` | Standalone interactive map (Leaflet + OpenStreetMap): every stop as a numbered pin, color-coded by day, filterable by day via the layer control, with free Day 3 parking pins |
+| `map.html` | Standalone interactive map (Leaflet + OpenStreetMap): every stop as a numbered pin, color-coded by day, filterable by day via the layer control, with Day 3 parking pins and a layer of every visitor center / stamp desk |
 | `_config.yml` | Jekyll theme config (`jekyll-theme-cayman`) |
 
 The weather section on the site is a small live widget using the free
