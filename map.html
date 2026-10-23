@@ -20,7 +20,7 @@
 <body>
 <div id="bar">
   <h1>DC Stamp Hunt — Trip Map</h1>
-  <p>Every stop, color-coded by day. Tap a pin for the stop name and a Google Maps link.</p>
+  <p>Every stop, color-coded by day. Use the checkboxes (top right) to filter by day. Tap a pin for the stop name and a Google Maps link.</p>
 </div>
 <div id="map"></div>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
@@ -59,14 +59,23 @@ var STOPS = [
 ];
 var map = L.map("map");
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
+var GROUPS = { day1: L.layerGroup(), day2: L.layerGroup(), day3: L.layerGroup(), hotel: L.layerGroup(), airport: L.layerGroup() };
 var bounds = [];
 STOPS.forEach(function (s) {
   var label = s.n.split(" · ")[0];
   var icon = L.divIcon({ className: "", html: '<div class="pin" style="background:' + COLORS[s.d] + '">' + label + "</div>", iconSize: [24, 24], iconAnchor: [12, 12] });
   var popup = "<b>" + s.n + "</b><br>" + DAYLABEL[s.d] + " · " + s.t + '<br><a href="https://www.google.com/maps/search/?api=1&query=' + s.q + '" target="_blank" rel="noopener">Open in Google Maps</a>';
-  L.marker([s.lat, s.lng], { icon: icon }).addTo(map).bindPopup(popup);
+  L.marker([s.lat, s.lng], { icon: icon }).bindPopup(popup).addTo(GROUPS[s.d]);
   bounds.push([s.lat, s.lng]);
 });
+Object.keys(GROUPS).forEach(function (k) { GROUPS[k].addTo(map); });
+L.control.layers(null, {
+  "🔵 Day 1 · Fri Nov 20 — National Mall": GROUPS.day1,
+  "🟠 Day 2 · Sat Nov 21 — Downtown / Shaw / Anacostia": GROUPS.day2,
+  "🟢 Day 3 · Sun Nov 22 — by car": GROUPS.day3,
+  "🟣 Hotel": GROUPS.hotel,
+  "⚫ DCA / Enterprise": GROUPS.airport
+}, { collapsed: false }).addTo(map);
 map.fitBounds(bounds, { padding: [25, 25] });
 var legend = L.control({ position: "bottomright" });
 legend.onAdd = function () {
