@@ -144,9 +144,9 @@ Live forecast for Washington, DC, powered by [Open-Meteo](https://open-meteo.com
 
 ## Trip map — color-coded by day {#trip-map}
 
-Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sat, Downtown / Shaw / Anacostia) · 🟢 **Day 3** (Sun, by car) · 🟣 hotel · ⚫ DCA / Enterprise. Pins are numbered in visit order — tap a pin for the stop and a Google Maps link. **Filter by day:** use the checkboxes on the map (top right) to show or hide each day — handy for viewing just one day's route at a time. [Open the map full-screen](map.html) for easier browsing on a phone.
+Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sat, Downtown / Shaw / Anacostia) · 🟢 **Day 3** (Sun, by car) · 🟣 hotel · ⚫ DCA / Enterprise. Pins are numbered in visit order — tap a pin for the stop and a Google Maps link. **Filter by day:** use the layer checkboxes on the map (top right — on a phone, tap the layers icon to open them) to show or hide each day — handy for viewing just one day's route at a time. [Open the map full-screen](map.html) for easier browsing on a phone.
 
-<iframe src="map.html" width="100%" height="480" style="border:1px solid #ccc; border-radius:8px;" loading="lazy" title="DC Stamp Hunt map — stops color-coded by day"></iframe>
+<iframe src="map.html" width="100%" style="border:1px solid #ccc; border-radius:8px; height:82vh; min-height:620px;" loading="lazy" title="DC Stamp Hunt map — stops color-coded by day"></iframe>
 
 ## Day 1 — Fri Nov 20: National Mall, on foot {#day-1}
 
