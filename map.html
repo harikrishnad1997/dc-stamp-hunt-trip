@@ -53,23 +53,24 @@ var STOPS = [
   { n: "7 · Frederick Douglass NHS", d: "day2", t: "3:30 PM tour (booked)", lat: 38.86299, lng: -76.98503, q: "Frederick+Douglass+National+Historic+Site+Washington+DC" },
   // Day 3
   { n: "1 · Theodore Roosevelt Island (parking)", d: "day3", t: "9:00 AM", lat: 38.89562, lng: -77.06655, q: "Theodore+Roosevelt+Island+Parking+Arlington+VA" },
-  { n: "2 · Lyndon Baines Johnson Memorial Grove (no stamp on site — GW Pkwy HQ / Arlington House)", d: "day3", t: "9:50 AM", lat: 38.87830, lng: -77.05423, q: "Lyndon+Baines+Johnson+Memorial+Grove+Washington+DC" },
-  { n: "3 · C&O Canal Georgetown Visitor Center", d: "day3", t: "10:40 AM", lat: 38.90432, lng: -77.05997, q: "Chesapeake+and+Ohio+Canal+Georgetown+Visitor+Center+Washington+DC" },
-  { n: "4 · Rock Creek Park Nature Center", d: "day3", t: "11:50 AM", lat: 38.95960, lng: -77.05184, q: "Rock+Creek+Park+Nature+Center+Washington+DC" },
-  { n: "5 · Kenilworth Park & Aquatic Gardens", d: "day3", t: "1:00 PM", lat: 38.91263, lng: -76.94181, q: "Kenilworth+Park+and+Aquatic+Gardens+Washington+DC" },
-  { n: "6 · Belmont-Paul Women's Equality NM", d: "day3", t: "2:15 PM", lat: 38.89219, lng: -77.00376, q: "Belmont-Paul+Womens+Equality+National+Monument+Washington+DC" },
-  { n: "7 · Fort Washington Park, MD (VC closes 4:30 PM)", d: "day3", t: "3:30 PM", lat: 38.71540, lng: -77.02699, q: "Fort+Washington+Park+13551+Fort+Washington+Rd+MD" },
-  { n: "8 · Anacostia Park HQ (optional — only if ahead of schedule)", d: "day3", t: "time permitting", lat: 38.87801, lng: -76.96991, q: "Anacostia+Park+1900+Anacostia+Dr+SE+Washington+DC" }
+  { n: "2 · Lyndon Baines Johnson Memorial Grove (stamp at Arlington House bookstore)", d: "day3", t: "9:50 AM", lat: 38.87830, lng: -77.05423, q: "Lyndon+Baines+Johnson+Memorial+Grove+Washington+DC" },
+  { n: "3 · National 9/11 Pentagon Memorial (walk from LBJ lot — no parking at the Pentagon)", d: "day3", t: "10:05 AM", lat: 38.87031, lng: -77.05930, q: "National+911+Pentagon+Memorial+Arlington+VA" },
+  { n: "4 · Arlington National Cemetery — Arlington House (bookstore: LBJ Grove stamp)", d: "day3", t: "11:00 AM", lat: 38.88244, lng: -77.07326, q: "Arlington+House+Arlington+National+Cemetery" },
+  { n: "5 · C&O Canal Georgetown Visitor Center (+ Old Stone House for the Rock Creek stamp)", d: "day3", t: "12:30 PM", lat: 38.90432, lng: -77.05997, q: "Chesapeake+and+Ohio+Canal+Georgetown+Visitor+Center+Washington+DC" },
+  { n: "6 · Kenilworth Park & Aquatic Gardens", d: "day3", t: "1:55 PM", lat: 38.91263, lng: -76.94181, q: "Kenilworth+Park+and+Aquatic+Gardens+Washington+DC" },
+  { n: "7 · Belmont-Paul Women's Equality NM", d: "day3", t: "2:55 PM", lat: 38.89219, lng: -77.00376, q: "Belmont-Paul+Womens+Equality+National+Monument+Washington+DC" },
+  { n: "8 · Fort Washington Park, MD (VC closes 4:30 PM)", d: "day3", t: "4:05 PM", lat: 38.71540, lng: -77.02699, q: "Fort+Washington+Park+13551+Fort+Washington+Rd+MD" },
+  { n: "9 · Anacostia Park HQ (optional — only if ahead of schedule)", d: "day3", t: "time permitting", lat: 38.87801, lng: -76.96991, q: "Anacostia+Park+1900+Anacostia+Dr+SE+Washington+DC" }
 ];
 var map = L.map("map");
 L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
 var PARKING = [
   { n: "P · Roosevelt Island parking lot", lat: 38.89680, lng: -77.06620, t: "FREE — NPS lot at the footbridge. Northbound GW Parkway lanes only. Small — fills on weekend mornings.", q: "Theodore+Roosevelt+Island+Parking+Arlington+VA" },
   { n: "P · Georgetown street parking (for C&O Canal VC)", lat: 38.90490, lng: -77.06060, t: "FREE on Sundays — DC meters are not enforced on Sundays. Metered spots near Thomas Jefferson St / Wisconsin Ave; Georgetown residential side streets as backup (permit-zone limits are weekday-only). Read the sign on the block.", q: "Thomas+Jefferson+Street+NW+Washington+DC" },
-  { n: "P · Rock Creek Nature Center parking lot", lat: 38.95990, lng: -77.05250, t: "FREE — NPS lot at the Nature Center, 5200 Glover Rd NW. (The park's only metered parking is at Thompson Boat Center, far from here.)", q: "Rock+Creek+Park+Nature+Center+Washington+DC" },
   { n: "P · Kenilworth Aquatic Gardens parking lot", lat: 38.91220, lng: -76.94240, t: "FREE — park lot at 1550 Anacostia Ave NE. Kenilworth Park lots nearby are free too.", q: "Kenilworth+Park+and+Aquatic+Gardens+Washington+DC" },
   { n: "P · Belmont-Paul street parking", lat: 38.89260, lng: -77.00460, t: "FREE on Sundays — metered street parking on Constitution Ave NE / 2nd St NE (DC meters not enforced on Sundays); residential side streets as backup. No lot at the house; skip the paid Union Station garage.", q: "Constitution+Avenue+NE+Washington+DC" },
-  { n: "P · LBJ Grove parking — Columbia Island Marina lot", lat: 38.87500, lng: -77.04860, t: "FREE — Columbia Island Marina lot on Lady Bird Johnson Park (Columbia Island). Entrance only from the SOUTHBOUND GW Parkway lanes; short paved walk through the parkway tunnel to the grove.", q: "Columbia+Island+Marina+Washington+DC" },
+  { n: "P · LBJ Grove parking — Columbia Island Marina lot", lat: 38.87500, lng: -77.04860, t: "FREE — Columbia Island Marina lot on Lady Bird Johnson Park (Columbia Island). Entrance only from the SOUTHBOUND GW Parkway lanes; short paved walk through the parkway tunnel to the grove. Also your walking base for the Pentagon Memorial: trail south + footbridge over Boundary Channel, ~15 min each way (no public parking at the Pentagon).", q: "Columbia+Island+Marina+Washington+DC" },
+  { n: "P · Arlington National Cemetery garage (for Arlington House)", lat: 38.88389, lng: -77.06487, t: "PAID — Welcome Center garage off Memorial Ave, $1.75/hr for the first 3 hours (~$2–4 for the stop). The only paid parking on Day 3. Garage closes 6 PM; cemetery closes 5 PM in November.", q: "Arlington+National+Cemetery+Welcome+Center+Parking" },
   { n: "P · Fort Washington Park parking", lat: 38.71300, lng: -77.02980, t: "FREE — lots by the visitor center, 13551 Fort Washington Rd, MD. (NPS lists a $10/vehicle entrance fee, reportedly not collected since 2019 — carry a card.)", q: "Fort+Washington+Park+Maryland" },
   { n: "P · Anacostia Park parking lots", lat: 38.87850, lng: -76.97060, t: "FREE — park lots along Anacostia Drive SE, near the NACE headquarters.", q: "Anacostia+Park+Washington+DC" }
 ];
@@ -92,7 +93,7 @@ L.control.layers(null, {
   "🔵 Day 1 · Fri Nov 20 — National Mall": GROUPS.day1,
   "🟠 Day 2 · Sat Nov 21 — Downtown / Shaw / Anacostia": GROUPS.day2,
   "🟢 Day 3 · Sun Nov 22 — by car": GROUPS.day3,
-  "🅿️ Day 3 parking — all free": GROUPS.parking,
+  "🅿️ Day 3 parking": GROUPS.parking,
   "🟣 Hotel": GROUPS.hotel,
   "⚫ DCA / Enterprise": GROUPS.airport
 }, { collapsed: window.innerWidth < 700 }).addTo(map);
@@ -103,7 +104,7 @@ legend.onAdd = function () {
   div.innerHTML = '<span class="chip" style="background:' + COLORS.day1 + '"></span>Day 1 · Fri (Mall, on foot)<br>' +
     '<span class="chip" style="background:' + COLORS.day2 + '"></span>Day 2 · Sat (Downtown/Shaw/Anacostia)<br>' +
     '<span class="chip" style="background:' + COLORS.day3 + '"></span>Day 3 · Sun (by car)<br>' +
-    '<span class="chip" style="background:#0f766e"></span>P · Day 3 parking (free)<br>' +
+    '<span class="chip" style="background:#0f766e"></span>P · Day 3 parking (Arlington garage paid; rest free)<br>' +
     '<span class="chip" style="background:' + COLORS.hotel + '"></span>Hotel<br>' +
     '<span class="chip" style="background:' + COLORS.airport + '"></span>DCA / Enterprise';
   return div;
