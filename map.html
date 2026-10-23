@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DC Stamp Hunt — Trip Map (color-coded by day)</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  html, body { height: 100%; margin: 0; font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+  #bar { background: #2e5a3c; color: #fff; padding: 10px 14px; }
+  #bar h1 { font-size: 18px; margin: 0 0 2px; }
+  #bar p { margin: 0; font-size: 13px; opacity: .9; }
+  #map { height: calc(100% - 62px); }
+  .pin { border-radius: 50%; color: #fff; font-weight: 700; font-size: 12px; text-align: center; line-height: 24px; width: 24px; height: 24px; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.45); }
+  .legend { background: #fff; padding: 8px 10px; border-radius: 6px; box-shadow: 0 1px 5px rgba(0,0,0,.3); font-size: 13px; line-height: 1.7; }
+  .legend .chip { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+  .leaflet-popup-content { font-size: 14px; }
+</style>
+</head>
+<body>
+<div id="bar">
+  <h1>DC Stamp Hunt — Trip Map</h1>
+  <p>Every stop, color-coded by day. Tap a pin for the stop name and a Google Maps link.</p>
+</div>
+<div id="map"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+var COLORS = { day1: "#1d6fb8", day2: "#e07b00", day3: "#1e8e3e", hotel: "#7c3aed", airport: "#374151" };
+var DAYLABEL = { day1: "Day 1 · Fri Nov 20", day2: "Day 2 · Sat Nov 21", day3: "Day 3 · Sun Nov 22", hotel: "Hotel", airport: "Airport / rental car" };
+var STOPS = [
+  // Hotel + airport
+  { n: "Washington Plaza Hotel", d: "hotel", t: "Thu–Sun base", lat: 38.90584, lng: -77.03139, q: "Washington+Plaza+Hotel+10+Thomas+Circle+NW+Washington+DC" },
+  { n: "Reagan National Airport (DCA) — Enterprise, Garage A", d: "airport", t: "Pickup Sat 8:30 PM · Return Sun 6:00 PM", lat: 38.84900, lng: -77.04402, q: "Enterprise+Rent-A-Car+Reagan+National+Airport" },
+  // Day 1
+  { n: "1 · Lincoln Memorial", d: "day1", t: "8:30 AM", lat: 38.88925, lng: -77.05017, q: "Lincoln+Memorial+Washington+DC" },
+  { n: "2 · Korean War Veterans Memorial", d: "day1", t: "9:45 AM", lat: 38.88714, lng: -77.04774, q: "Korean+War+Veterans+Memorial+Washington+DC" },
+  { n: "3 · Vietnam Veterans Memorial", d: "day1", t: "10:15 AM", lat: 38.89130, lng: -77.04770, q: "Vietnam+Veterans+Memorial+Washington+DC" },
+  { n: "4 · DC War Memorial", d: "day1", t: "11:15 AM", lat: 38.88762, lng: -77.04350, q: "DC+War+Memorial+Washington+DC" },
+  { n: "5 · Washington Monument Lodge", d: "day1", t: "12:00 PM", lat: 38.88945, lng: -77.03525, q: "Washington+Monument+Lodge+Washington+DC" },
+  { n: "6 · Eisenhower Memorial", d: "day1", t: "1:30 PM", lat: 38.88731, lng: -77.01954, q: "Dwight+D+Eisenhower+Memorial+Washington+DC" },
+  { n: "7 · MLK Jr. Memorial", d: "day1", t: "2:30 PM", lat: 38.88630, lng: -77.04433, q: "Martin+Luther+King+Jr+Memorial+Washington+DC" },
+  { n: "8 · FDR Memorial", d: "day1", t: "3:45 PM", lat: 38.88448, lng: -77.04521, q: "Franklin+Delano+Roosevelt+Memorial+Washington+DC" },
+  { n: "9 · Jefferson Memorial", d: "day1", t: "5:15 PM", lat: 38.88140, lng: -77.03656, q: "Thomas+Jefferson+Memorial+Washington+DC" },
+  // Day 2
+  { n: "1 · White House Visitor Center", d: "day2", t: "9:00 AM", lat: 38.89514, lng: -77.03280, q: "White+House+Visitor+Center+Washington+DC" },
+  { n: "2 · Ford's Theatre", d: "day2", t: "10:00 AM entry (booked)", lat: 38.89659, lng: -77.02580, q: "Fords+Theatre+Washington+DC" },
+  { n: "3 · Clara Barton Missing Soldiers Office (optional)", d: "day2", t: "11:15 AM", lat: 38.89582, lng: -77.02174, q: "Clara+Barton+Missing+Soldiers+Office+Museum+Washington+DC" },
+  { n: "4 · Bethune Council House", d: "day2", t: "12:00 PM tour", lat: 38.90818, lng: -77.03087, q: "Mary+McLeod+Bethune+Council+House+Washington+DC" },
+  { n: "5 · Carter G. Woodson Home", d: "day2", t: "1:15 PM tour (booked)", lat: 38.91082, lng: -77.02418, q: "Carter+G+Woodson+Home+National+Historic+Site+Washington+DC" },
+  { n: "6 · African American Civil War Memorial", d: "day2", t: "2:10 PM", lat: 38.91644, lng: -77.02537, q: "African+American+Civil+War+Memorial+Washington+DC" },
+  { n: "7 · Frederick Douglass NHS", d: "day2", t: "3:30 PM tour (booked)", lat: 38.86299, lng: -76.98503, q: "Frederick+Douglass+National+Historic+Site+Washington+DC" },
+  // Day 3
+  { n: "1 · Theodore Roosevelt Island (parking)", d: "day3", t: "9:00 AM", lat: 38.89562, lng: -77.06655, q: "Theodore+Roosevelt+Island+Parking+Arlington+VA" },
+  { n: "2 · C&O Canal Georgetown Visitor Center", d: "day3", t: "10:15 AM", lat: 38.90432, lng: -77.05997, q: "Chesapeake+and+Ohio+Canal+Georgetown+Visitor+Center+Washington+DC" },
+  { n: "3 · Rock Creek Park Nature Center", d: "day3", t: "11:30 AM", lat: 38.95960, lng: -77.05184, q: "Rock+Creek+Park+Nature+Center+Washington+DC" },
+  { n: "4 · Kenilworth Park & Aquatic Gardens", d: "day3", t: "1:00 PM", lat: 38.91263, lng: -76.94181, q: "Kenilworth+Park+and+Aquatic+Gardens+Washington+DC" },
+  { n: "5 · Belmont-Paul Women's Equality NM", d: "day3", t: "2:15 PM", lat: 38.89219, lng: -77.00376, q: "Belmont-Paul+Womens+Equality+National+Monument+Washington+DC" },
+  { n: "6 · Anacostia Park HQ (optional)", d: "day3", t: "3:30 PM", lat: 38.87801, lng: -76.96991, q: "Anacostia+Park+1900+Anacostia+Dr+SE+Washington+DC" }
+];
+var map = L.map("map");
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
+var bounds = [];
+STOPS.forEach(function (s) {
+  var label = s.n.split(" · ")[0];
+  var icon = L.divIcon({ className: "", html: '<div class="pin" style="background:' + COLORS[s.d] + '">' + label + "</div>", iconSize: [24, 24], iconAnchor: [12, 12] });
+  var popup = "<b>" + s.n + "</b><br>" + DAYLABEL[s.d] + " · " + s.t + '<br><a href="https://www.google.com/maps/search/?api=1&query=' + s.q + '" target="_blank" rel="noopener">Open in Google Maps</a>';
+  L.marker([s.lat, s.lng], { icon: icon }).addTo(map).bindPopup(popup);
+  bounds.push([s.lat, s.lng]);
+});
+map.fitBounds(bounds, { padding: [25, 25] });
+var legend = L.control({ position: "bottomright" });
+legend.onAdd = function () {
+  var div = L.DomUtil.create("div", "legend");
+  div.innerHTML = '<span class="chip" style="background:' + COLORS.day1 + '"></span>Day 1 · Fri (Mall, on foot)<br>' +
+    '<span class="chip" style="background:' + COLORS.day2 + '"></span>Day 2 · Sat (Downtown/Shaw/Anacostia)<br>' +
+    '<span class="chip" style="background:' + COLORS.day3 + '"></span>Day 3 · Sun (by car)<br>' +
+    '<span class="chip" style="background:' + COLORS.hotel + '"></span>Hotel<br>' +
+    '<span class="chip" style="background:' + COLORS.airport + '"></span>DCA / Enterprise';
+  return div;
+};
+legend.addTo(map);
+</script>
+</body>
+</html>
