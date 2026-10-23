@@ -34,6 +34,7 @@ Harikrishna Dev + Rajashree Chandar
 - [Brochure pickup list](#brochure-list)
 - [Packing checklist](#packing-checklist)
 - [Where the stamps live — sites without a visitor center](#stamp-locations)
+- [Visitor centers & stamp desks — where they are](#stamp-desks)
 - [America 250 commemorative stamps](#america-250)
 
 ## Bookings — all confirmed {#bookings}
@@ -145,7 +146,7 @@ Backup: the [National Weather Service forecast for DC](https://forecast.weather.
 
 ## Trip map — color-coded by day {#trip-map}
 
-Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sat, Downtown / Shaw / Anacostia) · 🟢 **Day 3** (Sun, by car) · 🟣 hotel · ⚫ DCA / Enterprise. Pins are numbered in visit order — tap a pin for the stop and a Google Maps link. **Filter by day:** use the layer checkboxes on the map (top right — on a phone, tap the layers icon to open them) to show or hide each day — handy for viewing just one day's route at a time. [Open the map full-screen](map.html) for easier browsing on a phone.
+Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sat, Downtown / Shaw / Anacostia) · 🟢 **Day 3** (Sun, by car) · 🟣 hotel · ⚫ DCA / Enterprise. Pins are numbered in visit order — tap a pin for the stop and a Google Maps link. **Filter by day:** use the layer checkboxes on the map (top right — on a phone, tap the layers icon to open them) to show or hide each day — handy for viewing just one day's route at a time. [Open the map full-screen](map.html) for easier browsing on a phone. There's also a toggleable layer of red **S** pins marking every visitor center / stamp desk — the same desks listed in the [stamp desk locations](#stamp-desks) section below.
 
 <iframe src="map.html" width="100%" style="border:1px solid #ccc; border-radius:8px; height:82vh; min-height:620px;" loading="lazy" title="DC Stamp Hunt map — stops color-coded by day"></iframe>
 
@@ -328,6 +329,34 @@ Most Mall memorials and several east-side sites have no visitor center or desk o
 - **Lyndon Baines Johnson Memorial Grove** (Day 3, 9:50 AM) has no desk: its stamp is a George Washington Memorial Parkway stamp — full parkway set at GW Parkway HQ, Turkey Run Park, McLean VA (Mon–Fri 8 AM–4 PM only); a selection including LBJ Grove is at the Arlington House bookstore, Arlington National Cemetery. Collectible on this trip: the Arlington House bookstore is a Day 3 stop (11 AM) — ask for the LBJ Grove stamp there.
 - **Arlington House bookstore**, Arlington National Cemetery (Day 3, 11 AM; 9 AM–4:30 PM, half-hour lunch closure): Arlington House, plus a GW Parkway selection including LBJ Grove and Theodore Roosevelt Island.
 - **Old Stone House**, 3051 M St NW, Georgetown (Day 3, ~12:30 PM; Sun 11 AM–7 PM): Rock Creek Park stamp set + park brochure (per NPS's Rock Creek stamp page) — today's Rock Creek desk, replacing the Nature Center.
+
+## Visitor centers & stamp desks — where they are {#stamp-desks}
+
+Every desk where a stamp actually changes hands, with its location — these are the red **S** pins on the [trip map](#trip-map) (toggle the "Stamp desks / visitor centers" layer). Pair this with [Where the stamps live](#stamp-locations) above: that section explains *why* stamps sit at desks other than their own sites; this one just tells you where to walk in.
+
+### Day 1 — Fri Nov 20, National Mall
+- **[Lincoln Memorial Bookstore (trailer)](https://www.google.com/maps/search/?api=1&query=Lincoln+Memorial+Bookstore+Washington+DC)** — 2 Lincoln Memorial Cir NW, at the memorial. Stamps: Constitution Gardens, Korean War, Lincoln, Vietnam, Vietnam Women's, Signers of the Declaration, John Ericsson.
+- **[World War II Memorial Information Desk](https://www.google.com/maps/search/?api=1&query=World+War+II+Memorial+Washington+DC)** — 1750 Independence Ave SW, at the memorial. Stamps: World War II, Constitution Gardens, John Paul Jones, 56 Signers.
+- **[Washington Monument Lodge](https://www.google.com/maps/search/?api=1&query=Washington+Monument+Lodge+Washington+DC)** — 2 15th St NW, at the Monument grounds. Stamps: National Mall, Washington Monument, World War I Memorial (Pershing Park), Lockkeeper's House, Old Post Office Tower.
+- **[Eisenhower Memorial Bookstore](https://www.google.com/maps/search/?api=1&query=Dwight+D+Eisenhower+Memorial+Washington+DC)** — 540 Independence Ave SW, at the memorial. Stamps: Eisenhower, National Mall & Memorial Parks, Belmont-Paul (backup), Grant Memorial, Japanese American Memorial, American Veterans Disabled for Life, George Meade.
+- **[MLK Jr. Memorial Bookstore](https://www.google.com/maps/search/?api=1&query=Martin+Luther+King+Jr+Memorial+Bookstore+Washington+DC)** — 1964 Independence Ave SW, at the memorial. Stamps: MLK Jr., DC War Memorial, African American Civil War Memorial (backup), Thomas Jefferson, John Paul Jones, John Ericsson.
+- **[FDR Memorial Bookstore](https://www.google.com/maps/search/?api=1&query=Franklin+Delano+Roosevelt+Memorial+Washington+DC)** — 1850 West Basin Dr SW, at the memorial. Stamps: FDR, World War II, World War I, Pennsylvania Avenue NHS, George Mason, Titanic Memorial.
+- **[Jefferson Memorial Bookstore](https://www.google.com/maps/search/?api=1&query=Thomas+Jefferson+Memorial+Washington+DC)** — 16 E Basin Dr SW, at the memorial. Stamps: Thomas Jefferson, George Mason, Titanic, National Mall & Memorial Parks.
+
+### Day 2 — Sat Nov 21, Downtown / Shaw / Anacostia
+- **[White House Visitor Center](https://www.google.com/maps/search/?api=1&query=White+House+Visitor+Center+Washington+DC)** — 1450 Pennsylvania Ave NW. Stamp: President's Park / The White House.
+- **[Ford's Theatre Box Office + Bookstore](https://www.google.com/maps/search/?api=1&query=Fords+Theatre+Washington+DC)** — 511 10th St NW. Stamps: Ford's Theatre NHS, Petersen House, Pennsylvania Avenue NHS, US Navy Memorial.
+- **[Carter G. Woodson Home NHS](https://www.google.com/maps/search/?api=1&query=Carter+G+Woodson+Home+National+Historic+Site+Washington+DC)** — 1538 9th St NW, Shaw. The 1:15 PM tour check-in and stamp are at the house.
+- **[Frederick Douglass NHS Visitor Center](https://www.google.com/maps/search/?api=1&query=Frederick+Douglass+National+Historic+Site+Washington+DC)** — 1411 W St SE, Anacostia. Stamps: Frederick Douglass, Mary McLeod Bethune Council House, Carter G. Woodson, Capitol Hill Parks, National Capital Parks-East, Underground Railroad Network to Freedom.
+
+### Day 3 — Sun Nov 22, by car
+- **[Theodore Roosevelt Island trailhead](https://www.google.com/maps/search/?api=1&query=Theodore+Roosevelt+Island+Washington+DC)** — island trailhead at the footbridge, off the GW Parkway. *Unstaffed:* brochure box only; the island stamp's location varies — ask a ranger if one is around.
+- **[Arlington House Bookstore](https://www.google.com/maps/search/?api=1&query=Arlington+House+Arlington+National+Cemetery)** — Arlington National Cemetery, at the house on top of the hill (9 AM–4:30 PM, half-hour lunch closure). Stamps: Arlington House, **Lyndon Baines Johnson Memorial Grove**, Theodore Roosevelt Island + a GW Parkway selection.
+- **[C&O Canal Georgetown Visitor Center](https://www.google.com/maps/search/?api=1&query=Chesapeake+and+Ohio+Canal+Georgetown+Visitor+Center+Washington+DC)** — 1057 Thomas Jefferson St NW. Stamps: Chesapeake & Ohio Canal NHP, Potomac Heritage Trail.
+- **[Old Stone House](https://www.google.com/maps/search/?api=1&query=Old+Stone+House+3051+M+St+NW+Washington+DC)** — 3051 M St NW, Georgetown (Sun 11 AM–7 PM). Rock Creek Park's Georgetown station: the Rock Creek Park stamp set + park brochure.
+- **[Kenilworth Aquatic Gardens Visitor Center](https://www.google.com/maps/search/?api=1&query=Kenilworth+Park+and+Aquatic+Gardens+Washington+DC)** — 1550 Anacostia Ave NE. Stamps: Kenilworth, **Anacostia Park (only available here)**, Capitol Hill Parks, Civil War Defenses of Washington, Baltimore-Washington Parkway, Fort Dupont, National Capital Parks-East, Potomac Heritage Trail.
+- **[Belmont-Paul Women's Equality NM](https://www.google.com/maps/search/?api=1&query=Belmont-Paul+Womens+Equality+National+Monument+Washington+DC)** — 144 Constitution Ave NE, Capitol Hill. The stamp is at the house desk.
+- **[Fort Washington Park Visitor Center](https://www.google.com/maps/search/?api=1&query=Fort+Washington+Park+Visitor+Center+Maryland)** — 13551 Fort Washington Rd, Fort Washington, MD (Wed–Sun 9 AM–4:30 PM). Stamps: Fort Washington, Fort Foote, Harmony Hall, Piscataway Park, Potomac Heritage Trail, Star-Spangled Banner Trail.
 
 ## America 250 commemorative stamps {#america-250}
 
