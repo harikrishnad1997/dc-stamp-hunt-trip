@@ -10,8 +10,9 @@ A 3-day National Park Service passport-stamp trip to Washington, DC, built aroun
 - **Thu Nov 19 – Sun Nov 22, 2026** · Harikrishna Dev + Rajashree Chandar
 - Flights: American Airlines, Chicago O'Hare (ORD) ↔ Washington Reagan National (DCA)
 - Hotel: Washington Plaza Hotel, 10 Thomas Circle NW
-- **Day 1 (Fri Nov 20)** — National Mall on foot: Lincoln, Korean War, Vietnam, DC War
-  Memorial, Washington Monument Lodge, Eisenhower, MLK Jr., FDR, Jefferson
+- **Day 1 (Fri Nov 20)** — National Mall on foot, west to east: Lincoln, Vietnam,
+  Korean War, DC War Memorial, MLK Jr., FDR, Jefferson, Washington Monument Lodge,
+  Eisenhower (day ends ~3 PM)
 - **Day 2 (Sat Nov 21)** — Downtown / Shaw / Anacostia on foot + Metro/bus: White House
   Visitor Center, Ford's Theatre (10 AM entry), Woodson Home (1:15 PM tour), African
   American Civil War Memorial, Frederick Douglass NHS (3:30 PM tour), then the rental-car
