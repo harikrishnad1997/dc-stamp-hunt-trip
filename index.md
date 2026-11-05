@@ -3,6 +3,8 @@ layout: default
 title: DC Stamp Hunt — NPS Passport Itinerary, Nov 19–22, 2026
 ---
 
+<a id="top"></a>
+
 # DC Stamp Hunt
 
 **NPS Passport Itinerary · Thu Nov 19 – Sun Nov 22, 2026 · 3 days, DC only**
@@ -392,3 +394,5 @@ For the semiquincentennial, NPS has special **America250™ commemorative passpo
 ---
 
 *Photos: Wikimedia Commons — public domain (Carol M. Highsmith; NPS; Historic American Landscapes Survey) and CC BY / CC BY-SA photographers, via the file pages for the Reflecting Pool, Lincoln Memorial interior, Jefferson Memorial at dusk, Ford's Theatre, Frederick Douglass NHS, Theodore Roosevelt Island, the Georgetown canal lock, Kenilworth Gardens, and the Sewall-Belmont House.*
+
+<a href="#top" title="Back to top" style="position:fixed; right:16px; bottom:16px; z-index:99; background:#159957; color:#fff; padding:10px 16px; border-radius:24px; text-decoration:none; font-size:14px; font-weight:600; box-shadow:0 2px 6px rgba(0,0,0,.3);">↑ Top</a>
