@@ -29,6 +29,7 @@ Harikrishna Dev + Rajashree Chandar
 - [Day 1 — Fri Nov 20: National Mall, on foot](#day-1)
 - [Day 2 — Sat Nov 21: Downtown, Shaw & Anacostia](#day-2)
 - [Day 3 — Sun Nov 22: by car, then fly home](#day-3)
+- [Christmas in DC — seasonal extras](#christmas-in-dc)
 - [Know before you go](#know-before-you-go)
 - [Stamp checklist](#stamp-checklist)
 - [Brochure pickup list](#brochure-list)
@@ -214,6 +215,14 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 - **7:59 PM — Fly home, AA 423**, DCA 7:59 PM ET → ORD 9:34 PM CT.
 
 > **Day 3 note:** Route runs north-to-south and ends closest to DCA: island → LBJ Grove → Pentagon Memorial (walk) → Arlington Cemetery → Georgetown (C&O + Old Stone House) → Kenilworth → Capitol Hill → Fort Washington → DCA. If you fall behind, cut the Pentagon Memorial walk first, then the LBJ Grove stop, then shorten Kenilworth — never Belmont-Paul (Fri–Sun only), and don't reach Fort Washington later than ~4:10 PM (its visitor center closes 4:30 PM). Check out before the 9 AM start; bags ride in the car.
+
+## Christmas in DC — seasonal extras {#christmas-in-dc}
+
+Your Nov 20–22 weekend catches the opening of DC's holiday season. These three are optional extras — none are booked, and none change the stamp plan above.
+
+- **[DowntownDC Holiday Market](https://www.google.com/maps/search/?api=1&query=DowntownDC+Holiday+Market+Washington+DC){:target="_blank" rel="noopener"}** — F Street NW between 7th and 9th St, in front of the Portrait Gallery. Nov 13–Dec 23, free entry; Fri/Sat 11 AM–9 PM, Sun 11 AM–8 PM, Mon–Thu noon–8 PM (closed Thanksgiving Day). The easy add: right by Ford's Theatre on Saturday, or a short hop after the Archives on Friday (open until 9 PM). The CityCenterDC tree was lit Nov 14, so downtown is already decorated.
+- **[ZooLights — Smithsonian National Zoo](https://www.google.com/maps/search/?api=1&query=Smithsonian+National+Zoo+Washington+DC){:target="_blank" rel="noopener"}** — 3001 Connecticut Ave NW. Opens Fri Nov 20; runs Nov 20–22 on your weekend, 5–9 PM Fri/Sat (last entry 8:30 PM), Sun 5–8 PM; $10 tickets, buy from the Zoo. The big lights option — on Friday it would replace the night lights walk rather than add to it.
+- **[Enchant Christmas — Nationals Park](https://www.google.com/maps/search/?api=1&query=Nationals+Park+Washington+DC){:target="_blank" rel="noopener"}** — 1500 S Capitol St SE. Nov 20–Dec 27, 5:30–10:30 PM, tickets from $28. Christmas light maze, ice skating trail, Santa, and a Christmas market. An evening swap for Friday's night walk, or a tight Saturday 5:30 PM entry between Douglass and the 8:30 PM DCA pickup.
 
 ## Know before you go {#know-before-you-go}
 
