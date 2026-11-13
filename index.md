@@ -39,6 +39,7 @@ Harikrishna Dev + Rajashree Chandar
 - [Where the stamps live — sites without a visitor center](#stamp-locations)
 - [Visitor centers & stamp desks — where they are](#stamp-desks)
 - [Official NPS stores on your route](#nps-stores)
+- [Trip calendar — subscribe and stay in sync](#trip-calendar)
 - [America 250 commemorative stamps](#america-250)
 
 ## Bookings — all confirmed {#bookings}
@@ -412,6 +413,16 @@ Every store below is an official park store run by **America's National Parks** 
 - **[Fort Washington Park store](https://www.google.com/maps/search/?api=1&query=Fort+Washington+Park+Visitor+Center+Maryland){:target="_blank" rel="noopener"}** 🛍️ — in the visitor center, 13551 Fort Washington Rd, MD. Open Wed–Sun 9 AM–4:30 PM.
 
 No store at these stamp desks: the World War II Memorial information desk (info kiosk only — its store is the FDR bookstore), the Theodore Roosevelt Island trailhead (unstaffed brochure box), and the C&O Canal Georgetown Visitor Center (NPS lists C&O park stores only at Great Falls Tavern, Williamsport and Cumberland). The White House Visitor Center does have a book/gift shop, but it is run by the White House Historical Association, not America's National Parks — so it is not counted here. The Arlington National Cemetery Welcome Center has its own Army-run bookstore, also not an NPS store.
+
+## Trip calendar — subscribe and stay in sync {#trip-calendar}
+
+This trip has a calendar feed that updates whenever the itinerary changes: [dc-trip.ics](https://harikrishnad1997.github.io/dc-stamp-hunt-trip/dc-trip.ics){:target="_blank" rel="noopener"} — every timed stop, tour, flight and the hotel, with the same times as the day plans above.
+
+**Google Calendar:** Settings → Add calendar → From URL → paste `https://harikrishnad1997.github.io/dc-stamp-hunt-trip/dc-trip.ics` → Add calendar. It shows up under "Other calendars" as "DC Stamp Hunt — Nov 20–22, 2026".
+
+**Apple Calendar / iPhone:** tap [this link](webcal://harikrishnad1997.github.io/dc-stamp-hunt-trip/dc-trip.ics) on your phone, or on a Mac: File → New Calendar Subscription → paste the same URL.
+
+**How syncing works:** the feed is regenerated and republished every time the itinerary changes, and your calendar app re-reads it on its own schedule — Google Calendar usually picks up changes within a day. It's not instant, so for a last-minute change while you're on the trip, check this page.
 
 ## America 250 commemorative stamps {#america-250}
 
