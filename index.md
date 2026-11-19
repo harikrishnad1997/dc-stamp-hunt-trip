@@ -152,7 +152,7 @@ Backup: the [National Weather Service forecast for DC](https://forecast.weather.
 
 ## Trip map — color-coded by day {#trip-map}
 
-Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sat, Downtown / Shaw / Anacostia) · 🟢 **Day 3** (Sun, by car) · 🟣 hotel · ⚫ DCA / Enterprise. Pins are numbered in visit order — tap a pin for the stop and a Google Maps link. **Filter by day:** use the layer checkboxes on the map (top right — on a phone, tap the layers icon to open them) to show or hide each day — handy for viewing just one day's route at a time. [Open the map full-screen](map.html){:target="_blank" rel="noopener"} for easier browsing on a phone. There's also a toggleable layer of red **S** pins marking every visitor center / stamp desk — the same desks listed in the [stamp desk locations](#stamp-desks) section below.
+Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sat, Downtown / Shaw / Anacostia) · 🟢 **Day 3** (Sun, by car) · 🟣 hotel · ⚫ DCA / Enterprise. Pins are numbered in visit order — tap a pin for the stop and a Google Maps link. **Filter by day:** use the layer checkboxes on the map (top right — on a phone, tap the layers icon to open them) to show or hide each day — handy for viewing just one day's route at a time. [Open the map full-screen](map.html){:target="_blank" rel="noopener"} for easier browsing on a phone. Stamp desks have their own map now — the red **S** pins are in the [stamp desk locations](#stamp-desks) section below.
 
 <iframe src="map.html" width="100%" style="border:1px solid #ccc; border-radius:8px; height:82vh; min-height:620px;" loading="lazy" title="DC Stamp Hunt map — stops color-coded by day"></iframe>
 
@@ -179,6 +179,8 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 
 > **Day 1 walking note:** About 3.5–4 miles on foot, mostly flat, all in one direction — west to east, no backtracking. No car needed — Metro to Foggy Bottom to start; L'Enfant Plaza is closest at the Eisenhower finish. Evening adds ~1.8 miles for the night lights walk.
 
+<iframe src="map.html?day=1" width="100%" style="border:1px solid #ccc; border-radius:8px; height:480px; min-height:420px;" loading="lazy" title="Day 1 map — Fri Nov 20, National Mall"></iframe>
+
 ## Day 2 — Sat Nov 21: Downtown, Shaw & Anacostia, on foot + Metro/bus {#day-2}
 
 <div class="photo-row">
@@ -196,6 +198,8 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 - **8:30 PM — Enterprise pickup at DCA (booked).** After dinner: Metro Blue line from McPherson Square to DCA station (~25 min), then the rental car shuttle or ~10-min walk to the Terminal Garage A counter. Compact (Nissan Versa or similar). Drive back to the hotel (~15 min) and park overnight — hotel parking is paid, confirm the overnight rate at Thursday check-in.
 
 > **Day 2 transit note:** On foot + Metro/bus during the day (~4 miles walking), car only from the evening pickup on. SmarTrip / contactless needed for Metro + Metrobus. The Star-Spangled Banner Trail stamp at the Navy Museum (Navy Yard) is not scheduled — only if a real gap opens.
+
+<iframe src="map.html?day=2" width="100%" style="border:1px solid #ccc; border-radius:8px; height:480px; min-height:420px;" loading="lazy" title="Day 2 map — Sat Nov 21, Downtown / Shaw / Anacostia"></iframe>
 
 ## Day 3 — Sun Nov 22: by car, then fly home {#day-3}
 
@@ -220,6 +224,8 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 - **7:59 PM — Fly home, AA 423**, DCA 7:59 PM ET → ORD 9:34 PM CT.
 
 > **Day 3 note:** Route runs north-to-south and ends closest to DCA: island → LBJ Grove → Pentagon Memorial (walk) → Arlington Cemetery → Georgetown (C&O + Old Stone House) → Kenilworth → Capitol Hill → Fort Washington → DCA. If you fall behind, cut the Pentagon Memorial walk first, then the LBJ Grove stop, then shorten Kenilworth — never Belmont-Paul (Fri–Sun only), and don't reach Fort Washington later than ~4:10 PM (its visitor center closes 4:30 PM). Check out before the 9 AM start; bags ride in the car.
+
+<iframe src="map.html?day=3" width="100%" style="border:1px solid #ccc; border-radius:8px; height:480px; min-height:420px;" loading="lazy" title="Day 3 map — Sun Nov 22, by car"></iframe>
 
 ## Christmas in DC — seasonal extras {#christmas-in-dc}
 
@@ -363,7 +369,9 @@ Most Mall memorials and several east-side sites have no visitor center or desk o
 
 ## Visitor centers & stamp desks — where they are {#stamp-desks}
 
-Every desk where a stamp actually changes hands, with its location — these are the red **S** pins on the [trip map](#trip-map) (toggle the "Stamp desks / visitor centers" layer). Pair this with [Where the stamps live](#stamp-locations) above: that section explains *why* stamps sit at desks other than their own sites; this one just tells you where to walk in. 🛍️ marks a desk with an official America's National Parks store — see [Official NPS stores on your route](#nps-stores).
+Every desk where a stamp actually changes hands, with its location — these are the red **S** pins on the map below. Pair this with [Where the stamps live](#stamp-locations) above: that section explains *why* stamps sit at desks other than their own sites; this one just tells you where to walk in. 🛍️ marks a desk with an official America's National Parks store — see [Official NPS stores on your route](#nps-stores).
+
+<iframe src="map.html?desks=1" width="100%" style="border:1px solid #ccc; border-radius:8px; height:480px; min-height:420px;" loading="lazy" title="Visitor centers & stamp desks map"></iframe>
 
 ### Day 1 — Fri Nov 20, National Mall
 - **[Lincoln Memorial Bookstore (trailer)](https://www.google.com/maps/search/?api=1&query=Lincoln+Memorial+Bookstore+Washington+DC){:target="_blank" rel="noopener"}** 🛍️ — 2 Lincoln Memorial Cir NW, at the memorial. Stamps: Constitution Gardens, Korean War, Lincoln, Vietnam, Vietnam Women's, Signers of the Declaration, John Ericsson.
@@ -448,6 +456,8 @@ No sign at these stops: Lincoln Memorial, Vietnam Veterans Memorial, DC War Memo
 ## Where to eat — vegetarian-friendly + iconic dinners {#where-to-eat}
 
 You are vegetarian (eggs OK) and lunch is cheap and quick — Panera and Subway are the defaults, with cafés near the hotel for breakfast. Dinners are the three historic rooms below. All checked Nov 19, 2026 on the restaurants' own menus and listings. Nothing is booked; the timed plan does not change.
+
+<iframe src="eat-map.html" width="100%" style="border:1px solid #ccc; border-radius:8px; height:480px; min-height:420px;" loading="lazy" title="Where to eat map"></iframe>
 
 ### Quick lunch — Panera + Subway (cheap, fast, veg-friendly)
 
