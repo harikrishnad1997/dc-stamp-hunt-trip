@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>DC Stamp Hunt — Where to eat map</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<style>
+  html, body { height: 100%; margin: 0; font-family: -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+  #bar { background: #2e5a3c; color: #fff; padding: 10px 14px; }
+  #bar h1 { font-size: 18px; margin: 0 0 2px; }
+  #bar p { margin: 0; font-size: 13px; opacity: .9; }
+  #map { height: calc(100% - 62px); }
+  .pin { border-radius: 50%; color: #fff; font-weight: 700; font-size: 12px; text-align: center; line-height: 24px; width: 24px; height: 24px; border: 2px solid #fff; box-shadow: 0 1px 4px rgba(0,0,0,.45); }
+  .legend { background: rgba(255,255,255,.92); padding: 6px 8px; border-radius: 6px; box-shadow: 0 1px 5px rgba(0,0,0,.3); font-size: 12px; line-height: 1.55; }
+  @media (max-width: 700px) { .legend { display: none; } }
+  .legend .chip { display: inline-block; width: 12px; height: 12px; border-radius: 50%; margin-right: 6px; vertical-align: -1px; }
+  .leaflet-popup-content { font-size: 14px; }
+</style>
+</head>
+<body>
+<div id="bar">
+  <h1>DC Stamp Hunt — Where to eat</h1>
+  <p>Every restaurant and café in the Where to eat section, color-coded by type. Tap a pin for the place and a Google Maps link.</p>
+</div>
+<div id="map"></div>
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<script>
+var CATS = {
+  quick:    { color: "#e07b00", letter: "Q", label: "Quick lunch — Panera & Subway" },
+  cafe:     { color: "#1d6fb8", letter: "B", label: "Breakfast cafés near the hotel" },
+  veg:      { color: "#1e8e3e", letter: "V", label: "Vegetarian-friendly restaurants" },
+  historic: { color: "#b91c1c", letter: "H", label: "Historic dinners & bars" }
+};
+var EATS = [
+  // Quick lunch — Panera & Subway
+  { n: "Panera — Ronald Reagan Building, 1300 Pennsylvania Ave NW", c: "quick", t: "Mon–Fri 6 AM–7 PM, closed Sat/Sun — Friday only", lat: 38.893738, lng: -77.03076, q: "Panera+Bread+1300+Pennsylvania+Ave+NW+Washington+DC" },
+  { n: "Panera — 601 13th St NW, Metro Center", c: "quick", t: "Daily 6 AM–9 PM; Sun 7 AM–9 PM — open all three days", lat: 38.8982, lng: -77.029195, q: "Panera+Bread+601+13th+St+NW+Washington+DC" },
+  { n: "Panera — Cannon House, 27 Independence Ave SE", c: "quick", t: "Mon–Fri 7:30 AM–5 PM, closed Sat/Sun — Friday only", lat: 38.88729, lng: -77.00725, q: "Panera+Bread+27+Independence+Ave+SE+Washington+DC" },
+  { n: "Subway — 901 E St NW", c: "quick", t: "Daily 7:30 AM–9 PM; Sat 8:30 AM–9 PM, Sun 9 AM–9 PM", lat: 38.896724, lng: -77.024114, q: "Subway+901+E+St+NW+Washington+DC" },
+  { n: "Subway — 1300 Pennsylvania Ave NW", c: "quick", t: "Mon–Fri 9 AM–7 PM, Sat 11 AM–3 PM, closed Sun", lat: 38.89421, lng: -77.030951, q: "Subway+1300+Pennsylvania+Ave+NW+Washington+DC" },
+  { n: "Subway — L'Enfant Plaza, 429 L'Enfant Plaza SW", c: "quick", t: "Mon–Fri 8 AM–5 PM, Sat 9 AM–4 PM — Friday only", lat: 38.8838, lng: -77.024489, q: "Subway+429+Lenfant+Plaza+SW+Washington+DC" },
+  // Breakfast cafés near the hotel
+  { n: "Bluestone Lane, 1367 R St NW", c: "cafe", t: "Daily 7:30 AM–8 PM — Avocado Smash, egg breakfast burrito", lat: 38.91270171, lng: -77.03131815, q: "Bluestone+Lane+1367+R+St+NW+Washington+DC" },
+  { n: "Slipstream, 1333 14th St NW", c: "cafe", t: "Fri 7 AM–5 PM; Sat/Sun 8 AM–5 PM — avocado toast, house-roasted coffee", lat: 38.90987892, lng: -77.03157744, q: "Slipstream+1333+14th+St+NW+Washington+DC" },
+  // Vegetarian-friendly restaurants
+  { n: "Mitsitam Native Foods Cafe, National Museum of the American Indian", c: "veg", t: "4th St & Independence Ave SW — Day 1 lunch on the Mall", lat: 38.888202, lng: -77.016628, q: "Mitsitam+Native+Foods+Cafe+National+Museum+of+the+American+Indian+Washington+DC" },
+  { n: "Chaia Tacos, 615 I St NW", c: "veg", t: "Mon–Sat 11 AM–9 PM; Sun 11 AM–2 PM — all-vegetarian tacos", lat: 38.90097157, lng: -77.02098644, q: "Chaia+Tacos+615+I+St+NW+Washington+DC" },
+  { n: "Rasa, 485 K St NW", c: "veg", t: "Daily 10:30 AM–10 PM — fast-casual Indian bowls", lat: 38.90264465, lng: -77.01825941, q: "Rasa+485+K+St+NW+Washington+DC" },
+  { n: "Zaytinya, 701 9th St NW", c: "veg", t: "Fri 11:30 AM–11 PM; Sat 11 AM–11 PM; Sun 11 AM–10 PM — José Andrés mezze", lat: 38.898856, lng: -77.023646, q: "Zaytinya+701+9th+St+NW+Washington+DC" },
+  { n: "Pow Pow, 1250 I St NW", c: "veg", t: "Daily 11 AM–9 PM — 100% plant-based Asian", lat: 38.90118543, lng: -77.0293404, q: "Pow+Pow+1250+I+St+NW+Washington+DC" },
+  { n: "Herbivore Indian Cuisine, 1639 Wisconsin Ave NW", c: "veg", t: "Sun 10 AM–9:30 PM; Mon–Fri 11 AM–9:30 PM; Sat 10 AM–10 PM — dosas, Shahi Paneer", lat: 38.91142098, lng: -77.06533823, q: "Herbivore+Indian+Cuisine+1639+Wisconsin+Ave+NW+Washington+DC" },
+  { n: "Falafel Inc, 1210 Potomac St NW", c: "veg", t: "Cheap falafel, fully vegetarian-friendly — Day 3 Georgetown", lat: 38.905461, lng: -77.065358, q: "Falafel+Inc+1210+Potomac+St+NW+Washington+DC" },
+  { n: "Burrito Brothers, 205 Pennsylvania Ave SE", c: "veg", t: "Veggie Lovers vegetarian and vegan burritos — near the Capitol", lat: 38.887276, lng: -77.00316, q: "Burrito+Brothers+205+Pennsylvania+Ave+SE+Washington+DC" },
+  // Historic dinners & bars
+  { n: "Old Ebbitt Grill, 675 15th St NW", c: "historic", t: "Est. 1856 — Guinness $9.59; veg: Butternut Squash Campanelle $24.99 or Falafel Bowl $23.99 — Fri dinner", lat: 38.897942, lng: -77.033375, q: "Old+Ebbitt+Grill+675+15th+St+NW+Washington+DC" },
+  { n: "The Dubliner, 4 F St NW", c: "historic", t: "Since 1974 — live Irish music from 7:30 PM; Beyond Burger + pint — Fri dinner or Sat before the 8:30 PM pickup", lat: 38.897203, lng: -77.009522, q: "The+Dubliner+4+F+St+NW+Washington+DC" },
+  { n: "Martin's Tavern, 1264 Wisconsin Ave NW", c: "historic", t: "Est. 1933; Booth 3 = JFK Proposal Booth — veggie burger, beet salad — Sun lunch", lat: 38.906777, lng: -77.063125, q: "Martins+Tavern+1264+Wisconsin+Ave+NW+Washington+DC" },
+  { n: "Ben's Chili Bowl, 1213 U St NW", c: "historic", t: "Since 1958 — veggie dog $5.99 with veggie chili + banana pudding — Sat lunch", lat: 38.917126, lng: -77.028789, q: "Bens+Chili+Bowl+1213+U+St+NW+Washington+DC" },
+  { n: "Florida Avenue Grill, 1100 Florida Ave NW", c: "historic", t: "Since 1944 — vegetable plate, collard greens, mac & cheese — Sat lunch", lat: 38.920675, lng: -77.027251, q: "Florida+Avenue+Grill+1100+Florida+Ave+NW+Washington+DC" },
+  { n: "Clyde's of Georgetown, 3236 M St NW", c: "historic", t: "Founded 1963 — lentil-quinoa burger, hummus platter — Sun lunch", lat: 38.905054, lng: -77.064056, q: "Clydes+of+Georgetown+3236+M+St+NW+Washington+DC" },
+  { n: "Tabard Inn, 1739 N St NW", c: "historic", t: "Since 1922 — dinner Fri/Sat 5–10:30 PM — Sat dinner, ~10 min from the hotel", lat: 38.907377, lng: -77.040006, q: "Tabard+Inn+1739+N+St+NW+Washington+DC" },
+  { n: "The Monocle, 107 D St NE", c: "historic", t: "Est. 1960 — Vegetarian Pasta — Fri dinner 4–9:30 PM, priciest of the five", lat: 38.894655, lng: -77.005174, q: "The+Monocle+107+D+St+NE+Washington+DC" },
+  { n: "Round Robin Bar, Willard InterContinental, 1401 Pennsylvania Ave NW", c: "historic", t: "Pouring since 1847 — drinks only; the mint julep — Fri evening before the night lights walk", lat: 38.896778, lng: -77.03234, q: "Round+Robin+Bar+Willard+InterContinental+1401+Pennsylvania+Ave+NW+Washington+DC" }
+];
+var map = L.map("map");
+L.tileLayer("https://tile.openstreetmap.org/{z}/{x}/{y}.png", { maxZoom: 19, attribution: "&copy; OpenStreetMap contributors" }).addTo(map);
+var GROUPS = { quick: L.layerGroup(), cafe: L.layerGroup(), veg: L.layerGroup(), historic: L.layerGroup() };
+var bounds = [];
+EATS.forEach(function (e) {
+  var cat = CATS[e.c];
+  var icon = L.divIcon({ className: "", html: '<div class="pin" style="background:' + cat.color + '">' + cat.letter + "</div>", iconSize: [24, 24], iconAnchor: [12, 12] });
+  var popup = "<b>" + e.n + "</b><br>" + cat.label + "<br>" + e.t + '<br><a href="https://www.google.com/maps/search/?api=1&query=' + e.q + '" target="_blank" rel="noopener">Open in Google Maps</a>';
+  L.marker([e.lat, e.lng], { icon: icon }).bindPopup(popup).addTo(GROUPS[e.c]);
+  bounds.push([e.lat, e.lng]);
+});
+Object.keys(GROUPS).forEach(function (k) { GROUPS[k].addTo(map); });
+L.control.layers(null, {
+  "🟠 Quick lunch — Panera & Subway": GROUPS.quick,
+  "🔵 Breakfast cafés near the hotel": GROUPS.cafe,
+  "🟢 Vegetarian-friendly restaurants": GROUPS.veg,
+  "🔴 Historic dinners & bars": GROUPS.historic
+}, { collapsed: window.innerWidth < 700 }).addTo(map);
+map.fitBounds(bounds, { padding: [25, 25] });
+var legend = L.control({ position: "bottomright" });
+legend.onAdd = function () {
+  var div = L.DomUtil.create("div", "legend");
+  div.innerHTML = '<span class="chip" style="background:' + CATS.quick.color + '"></span>Q · Quick lunch (Panera & Subway)<br>' +
+    '<span class="chip" style="background:' + CATS.cafe.color + '"></span>B · Breakfast cafés<br>' +
+    '<span class="chip" style="background:' + CATS.veg.color + '"></span>V · Vegetarian-friendly restaurants<br>' +
+    '<span class="chip" style="background:' + CATS.historic.color + '"></span>H · Historic dinners & bars';
+  return div;
+};
+legend.addTo(map);
+</script>
+</body>
+</html>
