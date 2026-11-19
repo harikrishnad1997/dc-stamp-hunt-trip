@@ -482,7 +482,6 @@ You are vegetarian (eggs OK) and lunch is cheap and quick — Panera and Subway 
 - **Pow Pow — [1250 I St NW, Franklin Square](https://www.google.com/maps/search/?api=1&query=Pow+Pow+1250+I+St+NW+Washington+DC){:target="_blank" rel="noopener"}** (daily 11 AM–9 PM) — 100% plant-based Asian fast-casual; Firecracker Cauliflower, Buddha bowl. Inexpensive.
 - **Herbivore Indian Cuisine — [1639 Wisconsin Ave NW, Georgetown](https://www.google.com/maps/search/?api=1&query=Herbivore+Indian+Cuisine+1639+Wisconsin+Ave+NW+Washington+DC){:target="_blank" rel="noopener"}** (Sun 10 AM–9:30 PM; Mon–Fri 11 AM–9:30 PM; Sat 10 AM–10 PM) — vegetarian-friendly Indian; paper dosa, Shahi Paneer, Mysore masala dosa. Day 3 Georgetown lunch.
 - **Falafel Inc — [1210 Potomac St NW, Georgetown](https://www.google.com/maps/search/?api=1&query=Falafel+Inc+1210+Potomac+St+NW+Washington+DC){:target="_blank" rel="noopener"}** — cheap falafel, fully vegetarian-friendly. Day 3 Georgetown.
-- **Burrito Brothers — [205 Pennsylvania Ave SE, Capitol Hill](https://www.google.com/maps/search/?api=1&query=Burrito+Brothers+205+Pennsylvania+Ave+SE+Washington+DC){:target="_blank" rel="noopener"}** — Veggie Lovers vegetarian and vegan burritos. Near the Capitol.
 
 ### Iconic dinners — historic rooms, Guinness + the iconic meal
 
