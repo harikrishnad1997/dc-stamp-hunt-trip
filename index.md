@@ -152,7 +152,7 @@ Backup: the [National Weather Service forecast for DC](https://forecast.weather.
 
 ## Trip map — color-coded by day {#trip-map}
 
-Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sat, Downtown / Shaw / Anacostia) · 🟢 **Day 3** (Sun, by car) · 🟣 hotel · ⚫ DCA / Enterprise. Pins are numbered in visit order — tap a pin for the stop and a Google Maps link. **Filter by day:** use the layer checkboxes on the map (top right — on a phone, tap the layers icon to open them) to show or hide each day — handy for viewing just one day's route at a time. [Open the map full-screen](map.html){:target="_blank" rel="noopener"} for easier browsing on a phone. Stamp desks have their own map now — the red **S** pins are in the [stamp desk locations](#stamp-desks) section below.
+Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sat, Downtown / Shaw / Anacostia) · 🟢 **Day 3** (Sun, by car) · 🟣 hotel · ⚫ DCA / Enterprise. Pins are numbered in visit order — tap a pin for the stop and a Google Maps link. **Filter by day:** use the layer checkboxes on the map (top right — on a phone, tap the layers icon to open them) to show or hide each day — handy for viewing just one day's route at a time. [Open the map full-screen](map.html){:target="_blank" rel="noopener"} for easier browsing on a phone. Stamp desks have their own map now — the red **S** pins are in the [stamp desk locations](#stamp-desks) section below. Parking has its own map too — the **P** pins are in the [Day 3](#day-3) section below.
 
 <iframe src="map.html" width="100%" style="border:1px solid #ccc; border-radius:8px; height:82vh; min-height:620px;" loading="lazy" title="DC Stamp Hunt map — stops color-coded by day"></iframe>
 
@@ -227,6 +227,10 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 > **Day 3 note:** Route runs north-to-south and ends closest to DCA: island → LBJ Grove → Pentagon Memorial (walk) → Arlington Cemetery → Georgetown (C&O + Old Stone House) → Kenilworth → Capitol Hill → Fort Washington → DCA. If you fall behind, cut the Pentagon Memorial walk first, then the LBJ Grove stop, then shorten Kenilworth — never Belmont-Paul (Fri–Sun only), and don't reach Fort Washington later than ~4:10 PM (its visitor center closes 4:30 PM). Check out before the 9 AM start; bags ride in the car.
 
 <iframe src="map.html?day=3" width="100%" style="border:1px solid #ccc; border-radius:8px; height:480px; min-height:420px;" loading="lazy" title="Day 3 map — Sun Nov 22, by car"></iframe>
+
+Day 3 parking — the Sunday lots and street-parking spots, on their own map. The Arlington garage is the only paid parking of the day; the rest are free.
+
+<iframe src="map.html?parking=1" width="100%" style="border:1px solid #ccc; border-radius:8px; height:480px; min-height:420px;" loading="lazy" title="Day 3 parking map — Sun Nov 22"></iframe>
 
 ## Christmas in DC — seasonal extras {#christmas-in-dc}
 
