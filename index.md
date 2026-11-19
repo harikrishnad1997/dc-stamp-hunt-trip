@@ -40,6 +40,7 @@ Harikrishna Dev + Rajashree Chandar
 - [Visitor centers & stamp desks — where they are](#stamp-desks)
 - [Official NPS stores on your route](#nps-stores)
 - [NPS entrance signs — photo spots](#nps-signs)
+- [Where to eat — vegetarian-friendly + iconic dinners](#where-to-eat)
 - [America 250 commemorative stamps](#america-250)
 
 ## Bookings — all confirmed {#bookings}
@@ -443,6 +444,43 @@ The Pullman photo — a big brown NPS entrance sign with the park name — has a
 - **[African American Civil War Memorial](https://www.google.com/maps/search/?api=1&query=African+American+Civil+War+Memorial+Washington+DC){:target="_blank" rel="noopener"}** 📸 (Day 2, 2:10 PM) — carved granite entrance marker at the plaza.
 
 No sign at these stops: Lincoln Memorial, Vietnam Veterans Memorial, DC War Memorial, Thomas Jefferson Memorial, Washington Monument Lodge (interpretive panels only — the obelisk is the photo), U.S. Capitol and National Archives (not NPS sites), White House Visitor Center (blue NPS banners and arrival signs only). Clara Barton Missing Soldiers Office: its famous 1865 tin sign ("Missing Soldiers Office, 3rd Story, Room 9, Miss Clara Barton") is an artifact on display inside on the 3rd floor, not an outdoor photo sign. Arlington National Cemetery itself is Army-run — the NPS sign at that stop is Arlington House's.
+
+## Where to eat — vegetarian-friendly + iconic dinners {#where-to-eat}
+
+You are vegetarian (eggs OK) and lunch is cheap and quick — Panera and Subway are the defaults, with cafés near the hotel for breakfast. Dinners are the three historic rooms below. All checked Nov 19, 2026 on the restaurants' own menus and listings. Nothing is booked; the timed plan does not change.
+
+### Quick lunch — Panera + Subway (cheap, fast, veg-friendly)
+
+- **Panera Bread — Ronald Reagan Building, [1300 Pennsylvania Ave NW](https://www.google.com/maps/search/?api=1&query=Panera+Bread+1300+Pennsylvania+Ave+NW+Washington+DC){:target="_blank" rel="noopener"}** (Mon–Fri 6 AM–7 PM, closed Sat/Sun) — closest to the Mall and the White House; Mediterranean Veggie sandwich, soups, mac & cheese. Friday only.
+- **Panera Bread — [601 13th St NW, Metro Center](https://www.google.com/maps/search/?api=1&query=Panera+Bread+601+13th+St+NW+Washington+DC){:target="_blank" rel="noopener"}** (daily 6 AM–9 PM; Sun 7 AM–9 PM) — open all three days, near Ford's Theatre and the Archives.
+- **Panera Bread — Cannon House Office Building, [27 Independence Ave SE](https://www.google.com/maps/search/?api=1&query=Panera+Bread+27+Independence+Ave+SE+Washington+DC){:target="_blank" rel="noopener"}** (Mon–Fri 7:30 AM–5 PM, closed Sat/Sun) — by the Capitol, Friday only.
+- **Subway — [901 E St NW](https://www.google.com/maps/search/?api=1&query=Subway+901+E+St+NW+Washington+DC){:target="_blank" rel="noopener"}** (daily 7:30 AM–9 PM; Sat 8:30 AM–9 PM, Sun 9 AM–9 PM) — near Ford's Theatre and Penn Quarter; Veggie Delite + egg breakfast sandwiches in the morning.
+- **Subway — [1300 Pennsylvania Ave NW](https://www.google.com/maps/search/?api=1&query=Subway+1300+Pennsylvania+Ave+NW+Washington+DC){:target="_blank" rel="noopener"}** (Mon–Fri 9 AM–7 PM, Sat 11 AM–3 PM, closed Sun) — same building as the Reagan Panera.
+- **Subway — L'Enfant Plaza, [429 L'Enfant Plaza SW](https://www.google.com/maps/search/?api=1&query=Subway+429+Lenfant+Plaza+SW+Washington+DC){:target="_blank" rel="noopener"}** (Mon–Fri 8 AM–5 PM, Sat 9 AM–4 PM) — near the Eisenhower Memorial / south end of the Mall, Friday only.
+
+### Breakfast cafés near the hotel (Thomas Circle)
+
+- **Bluestone Lane, Logan Circle — [1367 R St NW](https://www.google.com/maps/search/?api=1&query=Bluestone+Lane+1367+R+St+NW+Washington+DC){:target="_blank" rel="noopener"}** (daily 7:30 AM–8 PM) — Australian café; Avocado Smash, egg breakfast burrito, lemon ricotta pancakes.
+- **Slipstream — [1333 14th St NW, Logan Circle](https://www.google.com/maps/search/?api=1&query=Slipstream+1333+14th+St+NW+Washington+DC){:target="_blank" rel="noopener"}** (Fri 7 AM–5 PM; Sat + Sun 8 AM–5 PM; Mon–Thu 7 AM–2 PM) — house-roasted coffee + avocado toast with goat cheese mousse.
+
+### Vegetarian-friendly restaurants on the route
+
+- **Mitsitam Native Foods Cafe** — inside the National Museum of the American Indian, [4th St & Independence Ave SW](https://www.google.com/maps/search/?api=1&query=Mitsitam+Native+Foods+Cafe+National+Museum+of+the+American+Indian+Washington+DC){:target="_blank" rel="noopener"} (on the Mall; open museum hours) — cafeteria-style Native dishes by region, with vegetarian options. Day 1 lunch, right on the Mall.
+- **Chaia Tacos — [615 I St NW, Penn Quarter](https://www.google.com/maps/search/?api=1&query=Chaia+Tacos+615+I+St+NW+Washington+DC){:target="_blank" rel="noopener"}** (Mon–Sat 11 AM–9 PM; Sun 11 AM–2 PM) — all-vegetarian tacos; Creamy Kale & Potato, Braised Mushroom, Chipotle Sweet Potato Hash. Cheap and fast. Day 1 or Day 2.
+- **Rasa — [485 K St NW](https://www.google.com/maps/search/?api=1&query=Rasa+485+K+St+NW+Washington+DC){:target="_blank" rel="noopener"}** (daily 10:30 AM–10 PM) — fast-casual Indian bowls; vegan Aloo Need Is Love bowl, mango lassi. Day 1 or Day 2.
+- **Zaytinya — [701 9th St NW, Penn Quarter](https://www.google.com/maps/search/?api=1&query=Zaytinya+701+9th+St+NW+Washington+DC){:target="_blank" rel="noopener"}** (Fri 11:30 AM–11 PM; Sat 11 AM–11 PM; Sun 11 AM–10 PM; 4.6 stars) — José Andrés mezze; vegetables are a pillar of the menu — mushroom kapnista, crispy brussels afelia, hummus, baba ghannouge. Book ahead on weekend evenings.
+- **Pow Pow — [1250 I St NW, Franklin Square](https://www.google.com/maps/search/?api=1&query=Pow+Pow+1250+I+St+NW+Washington+DC){:target="_blank" rel="noopener"}** (daily 11 AM–9 PM) — 100% plant-based Asian fast-casual; Firecracker Cauliflower, Buddha bowl. Inexpensive.
+- **Herbivore Indian Cuisine — [1639 Wisconsin Ave NW, Georgetown](https://www.google.com/maps/search/?api=1&query=Herbivore+Indian+Cuisine+1639+Wisconsin+Ave+NW+Washington+DC){:target="_blank" rel="noopener"}** (Sun 10 AM–9:30 PM; Mon–Fri 11 AM–9:30 PM; Sat 10 AM–10 PM) — vegetarian-friendly Indian; paper dosa, Shahi Paneer, Mysore masala dosa. Day 3 Georgetown lunch.
+- **Falafel Inc — [1210 Potomac St NW, Georgetown](https://www.google.com/maps/search/?api=1&query=Falafel+Inc+1210+Potomac+St+NW+Washington+DC){:target="_blank" rel="noopener"}** — cheap falafel, fully vegetarian-friendly. Day 3 Georgetown.
+- **Burrito Brothers — [205 Pennsylvania Ave SE, Capitol Hill](https://www.google.com/maps/search/?api=1&query=Burrito+Brothers+205+Pennsylvania+Ave+SE+Washington+DC){:target="_blank" rel="noopener"}** — Veggie Lovers vegetarian and vegan burritos. Near the Capitol.
+
+### Iconic dinners — historic rooms, Guinness + the iconic meal
+
+- **Old Ebbitt Grill — [675 15th St NW](https://www.google.com/maps/search/?api=1&query=Old+Ebbitt+Grill+675+15th+St+NW+Washington+DC){:target="_blank" rel="noopener"}** (est. 1856, DC's oldest saloon; open till 2 AM) — Guinness Stout on draught, $9.59. Iconic: the oyster bar (happy hour 3–6 PM, oysters 50% off). Your veg plate: Butternut Squash Campanelle $24.99 or the Falafel Bowl $23.99. Best fit: Friday dinner after the Archives.
+- **The Dubliner — [4 F St NW, Capitol Hill](https://www.google.com/maps/search/?api=1&query=The+Dubliner+4+F+St+NW+Washington+DC){:target="_blank" rel="noopener"}** (since 1974; live Irish music nightly from 7:30 PM) — Guinness, the house pint. Iconic: Shepherd's Pie $20 — beef and lamb in Guinness gravy under champ potatoes (not vegetarian). Your play: the Beyond Burger + a pint + the music. 4.5 stars. Best fit: Friday dinner, or Saturday before the 8:30 PM car pickup.
+- **Martin's Tavern — [1264 Wisconsin Ave NW, Georgetown](https://www.google.com/maps/search/?api=1&query=Martins+Tavern+1264+Wisconsin+Ave+NW+Washington+DC){:target="_blank" rel="noopener"}** (est. 1933; Booth 3 is the JFK Proposal Booth) — Guinness. Iconic: shepherd's pie, Grandma Martin's meatloaf, crab cakes. Your veg pick: veggie burger, beet salad. Best fit: Sunday lunch at the 12:30 Georgetown stop.
+
+Meal timing: Friday lunch is the tightest — the Mall has food trucks on the Monument grounds plus the Reagan Panera / Subway. Saturday lunch has slack near Logan Circle / Shaw (Bluestone Lane, Slipstream, Pow Pow). Sunday lunch is Georgetown (Herbivore, Falafel Inc, Martin's).
 
 ## America 250 commemorative stamps {#america-250}
 
