@@ -96,19 +96,24 @@ var DESKS = [
   { n: "Fort Washington Park Visitor Center", g: "Day 3 - Sun Nov 22", a: "13551 Fort Washington Rd, Fort Washington, MD", t: "Fort Washington, Fort Foote, Harmony Hall, Piscataway Park, Potomac Heritage Trail, Star-Spangled Banner Trail", lat: 38.71261, lng: -77.03317, q: "Fort+Washington+Park+Visitor+Center+Maryland" }
 ];
 // URL filters: map.html?day=1|2|3 shows one day's stops only;
-// map.html?desks=1 shows the stamp desks only. No param = the full
-// trip map, with the desks layer removed (desks have their own map).
+// map.html?desks=1 shows the stamp desks only; map.html?parking=1 shows
+// the Day 3 parking spots only. No param = the full trip map, with the
+// desks and parking layers removed (each has its own map).
 var params = new URLSearchParams(location.search);
 var dayOnly = params.get("day");
 var desksOnly = params.get("desks") === "1";
+var parkingOnly = params.get("parking") === "1";
 var dayKey = (dayOnly === "1" || dayOnly === "2" || dayOnly === "3") ? ("day" + dayOnly) : null;
-var showAll = !dayKey && !desksOnly;
+var showAll = !dayKey && !desksOnly && !parkingOnly;
 if (dayKey) {
   document.getElementById("barTitle").textContent = "DC Stamp Hunt — " + DAYLABEL[dayKey];
   document.getElementById("barSub").textContent = "That day's stops, in visit order. Tap a pin for the stop and a Google Maps link.";
 } else if (desksOnly) {
   document.getElementById("barTitle").textContent = "DC Stamp Hunt — Visitor centers & stamp desks";
   document.getElementById("barSub").textContent = "Every desk where a stamp changes hands. Tap a pin for the desk, its address, and the stamps it holds.";
+} else if (parkingOnly) {
+  document.getElementById("barTitle").textContent = "DC Stamp Hunt — Day 3 parking";
+  document.getElementById("barSub").textContent = "Everywhere the car goes on Sunday. Tap a pin for the lot, what it costs, and a Google Maps link.";
 }
 var GROUPS = { day1: L.layerGroup(), day2: L.layerGroup(), day3: L.layerGroup(), hotel: L.layerGroup(), airport: L.layerGroup(), parking: L.layerGroup(), desks: L.layerGroup() };
 var bounds = [];
@@ -123,6 +128,7 @@ PARKING.forEach(function (p) {
   var icon = L.divIcon({ className: "", html: '<div class="pin park">P</div>', iconSize: [24, 24], iconAnchor: [12, 12] });
   var popup = "<b>" + p.n + "</b><br>Day 3 · Sun Nov 22<br>" + p.t + '<br><a href="https://www.google.com/maps/search/?api=1&query=' + p.q + '" target="_blank" rel="noopener">Open in Google Maps</a>';
   L.marker([p.lat, p.lng], { icon: icon }).bindPopup(popup).addTo(GROUPS.parking);
+  if (parkingOnly) { bounds.push([p.lat, p.lng]); }
 });
 DESKS.forEach(function (d) {
   var icon = L.divIcon({ className: "", html: '<div class="pin desk">S</div>', iconSize: [24, 24], iconAnchor: [12, 12] });
@@ -134,13 +140,14 @@ if (dayKey) {
   GROUPS[dayKey].addTo(map);
 } else if (desksOnly) {
   GROUPS.desks.addTo(map);
+} else if (parkingOnly) {
+  GROUPS.parking.addTo(map);
 } else {
-  Object.keys(GROUPS).forEach(function (k) { if (k !== "desks") { GROUPS[k].addTo(map); } });
+  Object.keys(GROUPS).forEach(function (k) { if (k !== "desks" && k !== "parking") { GROUPS[k].addTo(map); } });
   L.control.layers(null, {
     "🔵 Day 1 · Fri Nov 20 — National Mall": GROUPS.day1,
     "🟠 Day 2 · Sat Nov 21 — Downtown / Shaw / Anacostia": GROUPS.day2,
     "🟢 Day 3 · Sun Nov 22 — by car": GROUPS.day3,
-    "🅿️ Day 3 parking": GROUPS.parking,
     "🟣 Hotel": GROUPS.hotel,
     "⚫ DCA / Enterprise": GROUPS.airport
   }, { collapsed: window.innerWidth < 700 }).addTo(map);
@@ -150,7 +157,6 @@ if (dayKey) {
     div.innerHTML = '<span class="chip" style="background:' + COLORS.day1 + '"></span>Day 1 · Fri (Mall, on foot)<br>' +
       '<span class="chip" style="background:' + COLORS.day2 + '"></span>Day 2 · Sat (Downtown/Shaw/Anacostia)<br>' +
       '<span class="chip" style="background:' + COLORS.day3 + '"></span>Day 3 · Sun (by car)<br>' +
-      '<span class="chip" style="background:#0f766e"></span>P · Day 3 parking (Arlington garage paid; rest free)<br>' +
       '<span class="chip" style="background:' + COLORS.hotel + '"></span>Hotel<br>' +
       '<span class="chip" style="background:' + COLORS.airport + '"></span>DCA / Enterprise';
     return div;
