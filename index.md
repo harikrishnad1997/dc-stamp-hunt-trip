@@ -217,7 +217,7 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 
 | Stop | Time | Start | Parking | Visitor centre | Links |
 | --- | --- | --- | --- | --- | --- |
-| [White House Visitor Center](https://www.google.com/maps/search/?api=1&query=White+House+Visitor+Center+Washington+DC) | 1 hr | 9:00 AM | — | [White House VC](https://www.google.com/maps/search/?api=1&query=White+House+Visitor+Center+Washington+DC) | [Map](https://www.google.com/maps/search/?api=1&query=White+House+Visitor+Center+Washington+DC) |
+| [White House Visitor Center](https://www.google.com/maps/search/?api=1&query=White+House+Visitor+Center+Washington+DC) | 45 min | 9:00 AM | — | [White House VC](https://www.google.com/maps/search/?api=1&query=White+House+Visitor+Center+Washington+DC) | [Map](https://www.google.com/maps/search/?api=1&query=White+House+Visitor+Center+Washington+DC) |
 | [Ford's Theatre NHS + Pennsylvania Avenue NHS](https://www.google.com/maps/search/?api=1&query=Fords+Theatre+Washington+DC) (booked) | 1 hr 15 min | 10:00 AM | — | [Ford's bookstore](https://www.google.com/maps/search/?api=1&query=Fords+Theatre+Washington+DC) | [Map](https://www.google.com/maps/search/?api=1&query=Fords+Theatre+Washington+DC) |
 | [Clara Barton Missing Soldiers Office Museum](https://www.google.com/maps/search/?api=1&query=Clara+Barton+Missing+Soldiers+Office+Museum+Washington+DC) (optional) | 45 min | 11:15 AM | — | — | [Map](https://www.google.com/maps/search/?api=1&query=Clara+Barton+Missing+Soldiers+Office+Museum+Washington+DC) |
 | [Mary McLeod Bethune Council House NHS](https://www.google.com/maps/search/?api=1&query=Mary+McLeod+Bethune+Council+House+Washington+DC) (closed) | 30 min | 12:00 PM | — | [Douglass VC](https://www.google.com/maps/search/?api=1&query=Frederick+Douglass+National+Historic+Site+Washington+DC) | [Map](https://www.google.com/maps/search/?api=1&query=Mary+McLeod+Bethune+Council+House+Washington+DC) |
@@ -231,7 +231,7 @@ Every stop on one map: 🔵 **Day 1** (Fri, National Mall) · 🟠 **Day 2** (Sa
 
 **The stops, in order:**
 
-- **9:00 AM — [White House Visitor Center (President's Park)](https://www.google.com/maps/search/?api=1&query=White+House+Visitor+Center+Washington+DC){:target="_blank" rel="noopener"}.** [B] Brochure at the visitor center, same place as the stamp. Lafayette Square + White House viewing from outside. Nearest Metro: McPherson Square / Metro Center.
+- **9:00 AM — [White House Visitor Center (President's Park)](https://www.google.com/maps/search/?api=1&query=White+House+Visitor+Center+Washington+DC){:target="_blank" rel="noopener"}.** [B] Brochure at the visitor center, same place as the stamp. Lafayette Square + White House viewing from outside. Nearest Metro: McPherson Square / Metro Center. Keep it to ~45 min — leave by 9:45 AM for the 10:00 AM Ford's entry (~10-min walk).
 - **10:00 AM — [Ford's Theatre NHS + Pennsylvania Avenue NHS](https://www.google.com/maps/search/?api=1&query=Fords+Theatre+Washington+DC){:target="_blank" rel="noopener"}.** [B] Brochure in the lobby / bookstore. Stamps for both at the Ford's bookstore 🛍️. **Timed entry booked, 10:00 AM** — covers the theatre + Petersen House across the street. 📸 White hanging sign “FORD'S THEATRE” (notes NPS management) + vertical marquee; across the street, the Petersen House oval NPS plaque “HOUSE WHERE LINCOLN DIED”.
 - **11:15 AM — [Clara Barton Missing Soldiers Office Museum](https://www.google.com/maps/search/?api=1&query=Clara+Barton+Missing+Soldiers+Office+Museum+Washington+DC){:target="_blank" rel="noopener"}** *(optional)* — 437 7th St NW. Not an NPS stamp site. Only if Ford's runs early — the timed anchor today is the Woodson 1:15 PM tour (Bethune is closed, so there's slack now).
 - **12:00 PM — [Mary McLeod Bethune Council House NHS](https://www.google.com/maps/search/?api=1&query=Mary+McLeod+Bethune+Council+House+Washington+DC){:target="_blank" rel="noopener"} — ⛔ CLOSED FOR RENOVATION.** NPS closed the house Sep 9, 2026 for rehabilitation; it reopens Jan 27, 2027 — **no entry, no tour** on this trip. Exterior/photo stop only at Logan Circle (1318 Vermont Ave NW) as you pass toward Shaw. **Its passport stamp is available at the Frederick Douglass NHS visitor center** (per NPS's NACE stamp page) — you're there at ~3:20 PM today; ask for the Bethune stamp and brochure there. Use the freed time for a relaxed lunch near Logan Circle / Shaw before Woodson. 📸 NPS sign in front of the townhouse + gold “1318 THE NATIONAL COUNCIL OF NEGRO WOMEN” lettering above the door — exterior-only photo, the house is closed.
@@ -329,6 +329,13 @@ Your Nov 20–22 weekend catches the opening of DC's holiday season. These three
 - Constitution Gardens (at Lincoln bookstore)
 - America250 stamp(s) — ask at each bookstore
 
+**Bonus stamps — ask at the desks you're already visiting:**
+- Lincoln bookstore: Vietnam Women's Memorial, Signers of the Declaration of Independence Memorial (56 Signers), John Ericsson Memorial
+- Washington Monument Lodge: Lockkeeper's House, Old Post Office Tower
+- MLK bookstore: John Paul Jones Memorial (also at the WWII info desk)
+- FDR / Jefferson bookstores: George Mason Memorial, Titanic Memorial, West Potomac Park Memorial (FDR only)
+- Eisenhower bookstore: Ulysses S. Grant Memorial, Japanese American Memorial, American Veterans Disabled for Life Memorial, George G. Meade Statue
+
 ### Day 2 — Sat Nov 21, Downtown / Shaw / Anacostia
 - President's Park / White House (White House Visitor Center)
 - Pennsylvania Avenue NHS (at Ford's Theatre bookstore)
@@ -338,6 +345,10 @@ Your Nov 20–22 weekend catches the opening of DC's holiday season. These three
 - Carter G. Woodson Home NHS — 1:15 PM tour
 - Frederick Douglass NHS — 3:30 PM tour (no Sun/Mon tours)
 - Star-Spangled Banner Trail — Navy Yard (not scheduled, flex only)
+- Petersen House (at the Ford's Theatre box office / bookstore)
+- US Navy Memorial (at the Ford's Theatre box office)
+- Underground Railroad Network to Freedom (at the Frederick Douglass VC)
+- America250 stamp(s) — ask at Ford's Theatre
 
 ### Day 3 — Sun Nov 22, by car
 - Theodore Roosevelt Island
@@ -349,6 +360,9 @@ Your Nov 20–22 weekend catches the opening of DC's holiday season. These three
 - Belmont-Paul Women's Equality National Monument
 - Fort Washington Park — stamp at its visitor center (also ask for Fort Foote, Harmony Hall, Piscataway Park, Potomac Heritage Trail, Star-Spangled Banner Trail)
 - National Capital Parks-East / Anacostia Park (Anacostia Park stamp is ONLY at the Kenilworth VC per NPS)
+- Civil War Defenses of Washington, Baltimore-Washington Parkway, Fort Dupont Park, Potomac Heritage Trail (all at the Kenilworth VC)
+- George Washington Memorial Parkway — ask for the parkway stamps on offer at the Arlington House bookstore (the full 32-stamp set is at Turkey Run HQ, not on this trip)
+- America250 stamp(s) — ask at Belmont-Paul
 
 ## Official NPS brochure pickup list — [B] stops {#brochure-list}
 
@@ -444,7 +458,7 @@ Every desk where a stamp actually changes hands, with its location — these are
 - **[Washington Monument Lodge](https://www.google.com/maps/search/?api=1&query=Washington+Monument+Lodge+Washington+DC){:target="_blank" rel="noopener"}** 🛍️ — 2 15th St NW, at the Monument grounds. Stamps: National Mall, Washington Monument, World War I Memorial (Pershing Park), Lockkeeper's House, Old Post Office Tower. Open 10 AM–6 PM. Ideal visit: Day 1, ~12:15 PM (stamp on arrival for the 12:30 tour).
 - **[Eisenhower Memorial Bookstore](https://www.google.com/maps/search/?api=1&query=Dwight+D+Eisenhower+Memorial+Washington+DC){:target="_blank" rel="noopener"}** 🛍️ — 540 Independence Ave SW, at the memorial. Stamps: Eisenhower, National Mall & Memorial Parks, Belmont-Paul (backup), Grant Memorial, Japanese American Memorial, American Veterans Disabled for Life, George Meade. Open 10:30 AM–5 PM. Ideal visit: Day 1, 1:55 PM.
 - **[MLK Jr. Memorial Bookstore](https://www.google.com/maps/search/?api=1&query=Martin+Luther+King+Jr+Memorial+Bookstore+Washington+DC){:target="_blank" rel="noopener"}** 🛍️ — 1964 Independence Ave SW, at the memorial. Stamps: MLK Jr., DC War Memorial, African American Civil War Memorial (backup), Thomas Jefferson, John Paul Jones, John Ericsson. Open 10 AM–6 PM. Ideal visit: Day 1, 11:00 AM.
-- **[FDR Memorial Bookstore](https://www.google.com/maps/search/?api=1&query=Franklin+Delano+Roosevelt+Memorial+Washington+DC){:target="_blank" rel="noopener"}** 🛍️ — 1850 West Basin Dr SW, at the memorial. Stamps: FDR, World War II, World War I, Pennsylvania Avenue NHS, George Mason, Titanic Memorial. Open 10 AM–6 PM. Ideal visit: Day 1, 11:30 AM.
+- **[FDR Memorial Bookstore](https://www.google.com/maps/search/?api=1&query=Franklin+Delano+Roosevelt+Memorial+Washington+DC){:target="_blank" rel="noopener"}** 🛍️ — 1850 West Basin Dr SW, at the memorial. Stamps: FDR, World War II, World War I, Pennsylvania Avenue NHS, George Mason, Titanic Memorial, West Potomac Park Memorial. Open 10 AM–6 PM. Ideal visit: Day 1, 11:30 AM.
 - **[Jefferson Memorial Bookstore](https://www.google.com/maps/search/?api=1&query=Thomas+Jefferson+Memorial+Washington+DC){:target="_blank" rel="noopener"}** 🛍️ — 16 E Basin Dr SW, at the memorial. Stamps: Thomas Jefferson, George Mason, Titanic, National Mall & Memorial Parks. Open 10 AM–6 PM. Ideal visit: Day 1, 12:10 PM.
 
 ### Day 2 — Sat Nov 21, Downtown / Shaw / Anacostia
