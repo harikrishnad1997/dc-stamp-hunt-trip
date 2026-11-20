@@ -39,6 +39,7 @@ Harikrishna Dev + Rajashree Chandar
 - [Where the stamps live — sites without a visitor center](#stamp-locations)
 - [Visitor centers & stamp desks — where they are](#stamp-desks)
 - [Official NPS stores on your route](#nps-stores)
+- [Regional stamps — annual sticker sets](#regional-stamps)
 - [NPS entrance signs — photo spots](#nps-signs)
 - [Where to eat — vegetarian-friendly + iconic dinners](#where-to-eat)
 - [America 250 commemorative stamps](#america-250)
@@ -475,6 +476,27 @@ Every store below is an official park store run by **America's National Parks** 
 - **[Fort Washington Park store](https://www.google.com/maps/search/?api=1&query=Fort+Washington+Park+Visitor+Center+Maryland){:target="_blank" rel="noopener"}** 🛍️ — in the visitor center, 13551 Fort Washington Rd, MD. Open Wed–Sun 9 AM–4:30 PM.
 
 No store at these stamp desks: the World War II Memorial information desk (info kiosk only — its store is the FDR bookstore), the Theodore Roosevelt Island trailhead (unstaffed brochure box), and the C&O Canal Georgetown Visitor Center (NPS lists C&O park stores only at Great Falls Tavern, Williamsport and Cumberland). The White House Visitor Center does have a book/gift shop, but it is run by the White House Historical Association, not America's National Parks — so it is not counted here. The Arlington National Cemetery Welcome Center has its own Army-run bookstore, also not an NPS store.
+
+## Regional stamps — annual sticker sets {#regional-stamps}
+
+The free ink cancellations are only half the book. Each year since 1986, the Passport program has released a set of ten full-color adhesive sticker stamps — one park per region — sold by America's National Parks for about $6.99 a set. Each park was featured in exactly one year's set, so a park's sticker lives in that year's sheet, and it goes in the matching space in your Collector's Edition under the ink stamp.
+
+You own 27 sets (the 22 from order #96506-anp, plus 1991, 2009 and 2016 already owned, plus 1999 and 2027). These are the ones you're still missing for the DC region — ask for them at the park stores on this trip. The 2025 set is the current year and should be on the shelf; the older years are hit-or-miss in shops.
+
+**Still to buy:**
+
+- [ ] **1996** — Oxon Cove Park (National Capital)
+- [ ] **2007** — Catoctin Mountain Park (Mid-Atlantic) — the same sheet's West stamp is Mojave National Preserve, so this one also closes your December Mojave gap; its National Capital stamp is the George Mason Memorial, by the Jefferson Memorial (Day 1, 12:10)
+- [ ] **2010** — Piscataway Park (National Capital) — its ink stamp is collected Day 3 at Fort Washington
+- [ ] **2011** — Prince William Forest Park (Mid-Atlantic) — its National Capital stamp is the Ulysses S. Grant Memorial, at the Capitol (Day 1, 3:00 PM tour)
+- [ ] **2012** — Clara Barton NHS (Mid-Atlantic) — its National Capital stamp is the John Ericsson Memorial, whose ink stamp is at the Lincoln / MLK bookstore
+- [ ] **2014** — Lyndon Baines Johnson Memorial Grove (National Capital) — Day 3 stop
+- [ ] **2015** — Monocacy National Battlefield (Mid-Atlantic)
+- [ ] **2025** — Old Stone House (National Capital) — Day 3 Georgetown stop
+
+**Already covered by sets you own — no need to buy:** Harpers Ferry (1999), Manassas (2000), Antietam (2005), Wolf Trap (2016), Great Falls Park and Turkey Run (the 2005 set's national stamp is the George Washington Memorial Parkway), Fort Washington (1999), Arlington House (2026, Mid-Atlantic stamp).
+
+**No sticker exists for these — ink cancellation only:** Glen Echo Park, Thomas Stone NHS, and Greenbelt Park were never featured in any annual set from 1986 to 2026. Same for Anacostia Park / National Capital Parks-East, the African American Civil War Memorial, and the Star-Spangled Banner Trail stamp.
 
 ## NPS entrance signs — photo spots {#nps-signs}
 
