@@ -59,6 +59,11 @@ Economy (B), $367.60 total. Confirmation numbers are in the PDF itinerary and em
 - Check-out Sun Nov 22 by 12:00 PM (leave before the 9 AM Day 3 start, bags in the car)
 - Free cancellation until Wed Nov 18, 3:00 PM hotel time
 
+### 🎟️ Tours — Friday Nov 20
+- **Washington Monument** — 12:30–1:00 PM entry, 2 tickets, $2 fees (Recreation.gov; screenshot the QR tickets — limited cell service at the monument)
+- **U.S. Capitol Tour** — 3:00 PM, free guided tour (arrive Capitol Visitor Center by 2:50 PM)
+- **National Archives Museum** — 4:45 PM Rotunda entry, $2 (arrive by 4:30 PM; museum closes 5:30 PM)
+
 ### 🎟️ Tours — Saturday Nov 21
 - **Ford's Theatre** — 10:00 AM timed entry, $10, print-at-home
 - **Carter G. Woodson Home** — 1:15–1:45 PM tour (Recreation.gov)
