@@ -582,6 +582,8 @@ You are vegetarian (eggs OK) and lunch is cheap and quick — Panera and Subway 
 - **Pow Pow — [1250 I St NW, Franklin Square](https://www.google.com/maps/search/?api=1&query=Pow+Pow+1250+I+St+NW+Washington+DC){:target="_blank" rel="noopener"}** (daily 11 AM–9 PM) — 100% plant-based Asian fast-casual; Firecracker Cauliflower, Buddha bowl. Inexpensive.
 - **Herbivore Indian Cuisine — [1639 Wisconsin Ave NW, Georgetown](https://www.google.com/maps/search/?api=1&query=Herbivore+Indian+Cuisine+1639+Wisconsin+Ave+NW+Washington+DC){:target="_blank" rel="noopener"}** (Sun 10 AM–9:30 PM; Mon–Fri 11 AM–9:30 PM; Sat 10 AM–10 PM) — vegetarian-friendly Indian; paper dosa, Shahi Paneer, Mysore masala dosa. Day 3 Georgetown lunch.
 - **Falafel Inc — [1210 Potomac St NW, Georgetown](https://www.google.com/maps/search/?api=1&query=Falafel+Inc+1210+Potomac+St+NW+Washington+DC){:target="_blank" rel="noopener"}** — cheap falafel, fully vegetarian-friendly. Day 3 Georgetown.
+- **DC Vegan — [1633 P St NW, Dupont Circle](https://www.google.com/maps/search/?api=1&query=DC+Vegan+1633+P+St+NW+Washington+DC){:target="_blank" rel="noopener"}** (Fri 11 AM–10:30 PM; Sat 10 AM–10:30 PM; Sun 10 AM–10 PM) — fully vegan Italian-American comfort food, deli + bakery; meatball sub, cauliflower wings, fried artichoke sandwich. Voted DC's Best Vegan/Vegetarian 2024 + 2025. Best fit: Friday or Saturday dinner, ~10-min walk from the hotel.
+- **Chercher Ethiopian Restaurant & Mart — [1334 9th St NW, Shaw](https://www.google.com/maps/search/?api=1&query=Chercher+Ethiopian+Restaurant+Mart+1334+9th+St+NW+Washington+DC){:target="_blank" rel="noopener"}** (Fri–Sat 11:30 AM–11 PM; Sun–Thu 11:30 AM–10 PM) — Ethiopian; deluxe vegan platter (10 vegetables, unlimited injera). Best fit: Saturday lunch or dinner in Shaw, four blocks from Woodson Home.
 
 ### Iconic dinners — historic rooms, Guinness + the iconic meal
 
@@ -598,7 +600,7 @@ You are vegetarian (eggs OK) and lunch is cheap and quick — Panera and Subway 
 - **The Monocle — [107 D St NE, Capitol Hill](https://www.google.com/maps/search/?api=1&query=The+Monocle+107+D+St+NE+Washington+DC){:target="_blank" rel="noopener"}** (est. 1960 in an 1885 townhouse; JFK and Nixon were regulars as young senators; walls carry signed photos of every president since Kennedy) — Vegetarian Pasta (spinach, wild mushrooms, roasted red pepper cream sauce) on both lunch and dinner menus. Friday dinner 4–9:30 PM, right by the Capitol after the Archives. Flag: the priciest of the five.
 - **Round Robin Bar — Willard InterContinental, [1401 Pennsylvania Ave NW](https://www.google.com/maps/search/?api=1&query=Round+Robin+Bar+Willard+InterContinental+1401+Pennsylvania+Ave+NW+Washington+DC){:target="_blank" rel="noopener"}** (pouring since 1847) — drinks only, not a meal; the mint julep is the order. Best fit: Friday evening before the night lights walk.
 
-Meal timing: Friday lunch is the tightest — the Mall has food trucks on the Monument grounds plus the Reagan Panera / Subway. Saturday lunch has slack near Logan Circle / Shaw (Bluestone Lane, Slipstream, Pow Pow). Sunday lunch is Georgetown (Herbivore, Falafel Inc, Martin's).
+Meal timing: Friday lunch is the tightest — the Mall has food trucks on the Monument grounds plus the Reagan Panera / Subway. Saturday lunch has slack near Logan Circle / Shaw (Bluestone Lane, Slipstream, Pow Pow, Chercher). Sunday lunch is Georgetown (Herbivore, Falafel Inc, Martin's).
 
 ## America 250 commemorative stamps {#america-250}
 
